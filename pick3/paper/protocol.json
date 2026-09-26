@@ -1,0 +1,71 @@
+{
+  "study": "SC-PAPER-V1",
+  "created_utc": "2026-09-10T12:25:40.301244+00:00",
+  "weights": {
+    "Day": {
+      "bayes_number": 0.0,
+      "bayes_position_strong": 2.137582362065326e-19,
+      "cold_100": 0.13958723042257104,
+      "cross_markov": 0.0,
+      "frequency_100": 1.0631889078004895e-17,
+      "frequency_1000": 1.6105155662288735e-18,
+      "frequency_25": 7.964582327101105e-18,
+      "frequency_250": 1.8392144619875348e-18,
+      "frequency_50": 0.13509920589828214,
+      "frequency_500": 0.0,
+      "gap_hazard": 0.4223037905864648,
+      "historical_position": 1.2395151353314901e-18,
+      "markov_1": 0.08631695901062493,
+      "markov_2": 0.0,
+      "pair_markov": 0.0,
+      "pairs": 0.0,
+      "random_forest": 0.13189783999161123,
+      "random_forest_rolling500": 0.0,
+      "sum_pattern": 0.0,
+      "uniform": 0.0,
+      "xgboost": 0.08479497409044585
+    },
+    "Night": {
+      "bayes_number": 0.0,
+      "bayes_position_strong": 1.6437855522473286e-17,
+      "cold_100": 0.11553436619682146,
+      "cross_markov": 2.894868225899661e-17,
+      "frequency_100": 0.036482654521719886,
+      "frequency_1000": 1.6321818766935496e-17,
+      "frequency_25": 9.849433603056959e-18,
+      "frequency_250": 0.0,
+      "frequency_50": 0.036378602038816335,
+      "frequency_500": 0.0,
+      "gap_hazard": 0.3685522243533176,
+      "historical_position": 1.546491533772556e-17,
+      "markov_1": 0.04563794509882659,
+      "markov_2": 0.0,
+      "pair_markov": 0.21133304911905298,
+      "pairs": 0.0,
+      "random_forest": 0.1860811586714451,
+      "random_forest_rolling500": 5.483282595236572e-18,
+      "sum_pattern": 0.0,
+      "uniform": 1.5327143671226255e-17,
+      "xgboost": 1.0321140696841128e-18
+    }
+  },
+  "endpoint_draws_per_stream": 200,
+  "initial_forecast_date": {
+    "Day": "2026-09-10",
+    "Night": "2026-09-10"
+  },
+  "rules": "Register before 12:45 Day / 18:45 Night America/New_York. Never backfill missed forecasts or replace registered picks. Ten distinct model and random straights; $10 hypothetical cost each. Fixed mixture weights and model code, refit only on preceding same-type draws. No tickets purchased.",
+  "inference": "Only after both streams complete 200 scored draws: four Holm-corrected tests, Day/Night model top10 vs .01 and paired model vs random exact discordant tests. Night anomaly: first 200 Night outcomes, test excess tens=0 and deficit tens=7 using one-sided binomial tests with Bonferroni factor 2. Interim rates descriptive; 200 draws has limited power for rare hits.",
+  "integrity_note": "Exclusive-create JSON records plus SHA256 journal are locally auditable; not an externally notarized or tamper-proof timestamp service.",
+  "frozen_hashes": {
+    "frozen\\Day_probabilities.csv": "288393f2dfb238f51db9ff5f039ceccf3e0a16b232287f431e8ecf5c18eb827c",
+    "frozen\\history.csv": "162f55aba7296c1bac650c21b100159cf357aaca30771be18dcc799ef82d2b6d",
+    "frozen\\Night_probabilities.csv": "38a3be44a98fb6782f7d0a59de5eeddf338e8dc21cb937f64c3c9a5fe427acdb",
+    "frozen\\pick3\\backtest.py": "78c52439de9a4e5cf689bb95809939a80e9aeb4b6354121416aaa572a1a942dd",
+    "frozen\\pick3\\data.py": "17dfb98115b61aa9ed42ca7b5b3e63e9a9a8a97523ccc77e5b9256a269303184",
+    "frozen\\pick3\\explore.py": "fad7e540e7d64256352deacbb483815e4fcc600a7eec33759d226114cf03d6c0",
+    "frozen\\pick3\\models.py": "38a0b9b00e57b9abcd9739d56c63f0fc18d60a0f1fe77991a1cb0976e177a1b5",
+    "frozen\\pick3\\report.py": "b627511b4861eeedb907ebac6f876038454b1c64e88ed11a95f15624820dbd77",
+    "frozen\\pick3\\__init__.py": "59752832c83897b57d91458054b17f70e88bfcde1e1f0e5b732992085dce4726"
+  }
+}

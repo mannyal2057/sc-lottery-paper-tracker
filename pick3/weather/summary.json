@@ -1,0 +1,606 @@
+{
+  "updated_utc": "2026-09-26T16:25:56.520543+00:00",
+  "issues": [],
+  "rows": [
+    {
+      "date": "2026-09-15",
+      "draw_type": "Day",
+      "weather_picks": [
+        "077",
+        "877",
+        "097"
+      ],
+      "calendar_picks": [
+        "077",
+        "977",
+        "177"
+      ],
+      "baseline_picks": [
+        "484",
+        "482",
+        "584"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 29.7,
+        "relative_humidity_2m": 51.0,
+        "surface_pressure": 1013.9
+      },
+      "actual": "035",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.707082163563665,
+      "calendar_log_loss": 6.754458324756213
+    },
+    {
+      "date": "2026-09-15",
+      "draw_type": "Night",
+      "weather_picks": [
+        "699",
+        "649",
+        "199"
+      ],
+      "calendar_picks": [
+        "619",
+        "639",
+        "699"
+      ],
+      "baseline_picks": [
+        "216",
+        "816",
+        "815"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 32.2,
+        "relative_humidity_2m": 36.0,
+        "surface_pressure": 1012.5
+      },
+      "actual": "433",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.908308056685819,
+      "calendar_log_loss": 6.880727045902262
+    },
+    {
+      "date": "2026-09-16",
+      "draw_type": "Day",
+      "weather_picks": [
+        "077",
+        "097",
+        "477"
+      ],
+      "calendar_picks": [
+        "077",
+        "177",
+        "877"
+      ],
+      "baseline_picks": [
+        "482",
+        "582",
+        "452"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 26.5,
+        "relative_humidity_2m": 59.0,
+        "surface_pressure": 1016.8
+      },
+      "actual": "980",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.001102148002837,
+      "calendar_log_loss": 6.967541230700826
+    },
+    {
+      "date": "2026-09-16",
+      "draw_type": "Night",
+      "weather_picks": [
+        "699",
+        "649",
+        "899"
+      ],
+      "calendar_picks": [
+        "639",
+        "619",
+        "649"
+      ],
+      "baseline_picks": [
+        "113",
+        "815",
+        "215"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 30.6,
+        "relative_humidity_2m": 36.0,
+        "surface_pressure": 1014.6
+      },
+      "actual": "974",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.1674725372068835,
+      "calendar_log_loss": 7.142424928841763
+    },
+    {
+      "date": "2026-09-17",
+      "draw_type": "Day",
+      "weather_picks": [
+        "897",
+        "894",
+        "892"
+      ],
+      "calendar_picks": [
+        "174",
+        "176",
+        "194"
+      ],
+      "baseline_picks": [
+        "482",
+        "481",
+        "484"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 28.7,
+        "relative_humidity_2m": 39.0,
+        "surface_pressure": 1014.0
+      },
+      "actual": "957",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.865114126883971,
+      "calendar_log_loss": 6.90171870385004
+    },
+    {
+      "date": "2026-09-17",
+      "draw_type": "Night",
+      "weather_picks": [
+        "696",
+        "896",
+        "196"
+      ],
+      "calendar_picks": [
+        "639",
+        "649",
+        "636"
+      ],
+      "baseline_picks": [
+        "116",
+        "118",
+        "110"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 32.6,
+        "relative_humidity_2m": 24.0,
+        "surface_pressure": 1011.1
+      },
+      "actual": "782",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.013795282565572,
+      "calendar_log_loss": 7.105196443454938
+    },
+    {
+      "date": "2026-09-19",
+      "draw_type": "Night",
+      "weather_picks": [
+        "836",
+        "846",
+        "831"
+      ],
+      "calendar_picks": [
+        "836",
+        "846",
+        "826"
+      ],
+      "baseline_picks": [
+        "118",
+        "213",
+        "113"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 32.4,
+        "relative_humidity_2m": 44.0,
+        "surface_pressure": 1004.5
+      },
+      "actual": "125",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.849353538903616,
+      "calendar_log_loss": 6.798752401874382
+    },
+    {
+      "date": "2026-09-20",
+      "draw_type": "Night",
+      "weather_picks": [
+        "836",
+        "846",
+        "838"
+      ],
+      "calendar_picks": [
+        "826",
+        "836",
+        "846"
+      ],
+      "baseline_picks": [
+        "215",
+        "118",
+        "115"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 32.5,
+        "relative_humidity_2m": 41.0,
+        "surface_pressure": 1002.0
+      },
+      "actual": "756",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.962226142057315,
+      "calendar_log_loss": 6.992837921817872
+    },
+    {
+      "date": "2026-09-21",
+      "draw_type": "Day",
+      "weather_picks": [
+        "877",
+        "872",
+        "857"
+      ],
+      "calendar_picks": [
+        "077",
+        "977",
+        "057"
+      ],
+      "baseline_picks": [
+        "552",
+        "452",
+        "551"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 31.7,
+        "relative_humidity_2m": 47.0,
+        "surface_pressure": 1005.1
+      },
+      "actual": "183",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.040215713145215,
+      "calendar_log_loss": 6.916150098957034
+    },
+    {
+      "date": "2026-09-21",
+      "draw_type": "Night",
+      "weather_picks": [
+        "698",
+        "696",
+        "638"
+      ],
+      "calendar_picks": [
+        "619",
+        "699",
+        "639"
+      ],
+      "baseline_picks": [
+        "116",
+        "115",
+        "409"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 33.5,
+        "relative_humidity_2m": 37.0,
+        "surface_pressure": 1002.1
+      },
+      "actual": "391",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.763573240463223,
+      "calendar_log_loss": 6.9202184250772865
+    },
+    {
+      "date": "2026-09-22",
+      "draw_type": "Day",
+      "weather_picks": [
+        "877",
+        "872",
+        "977"
+      ],
+      "calendar_picks": [
+        "077",
+        "877",
+        "977"
+      ],
+      "baseline_picks": [
+        "487",
+        "482",
+        "481"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 30.6,
+        "relative_humidity_2m": 55.0,
+        "surface_pressure": 1005.8
+      },
+      "actual": "148",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.0082481310754945,
+      "calendar_log_loss": 7.01315420585235
+    },
+    {
+      "date": "2026-09-22",
+      "draw_type": "Night",
+      "weather_picks": [
+        "696",
+        "636",
+        "698"
+      ],
+      "calendar_picks": [
+        "619",
+        "639",
+        "699"
+      ],
+      "baseline_picks": [
+        "116",
+        "435",
+        "405"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 32.5,
+        "relative_humidity_2m": 39.0,
+        "surface_pressure": 1004.4
+      },
+      "actual": "130",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.750725428839245,
+      "calendar_log_loss": 6.740094176342899
+    },
+    {
+      "date": "2026-09-23",
+      "draw_type": "Day",
+      "weather_picks": [
+        "073",
+        "077",
+        "071"
+      ],
+      "calendar_picks": [
+        "077",
+        "177",
+        "877"
+      ],
+      "baseline_picks": [
+        "581",
+        "580",
+        "551"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 19.7,
+        "relative_humidity_2m": 84.0,
+        "surface_pressure": 1010.2
+      },
+      "actual": "456",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.8736872533696545,
+      "calendar_log_loss": 6.835128461848058
+    },
+    {
+      "date": "2026-09-23",
+      "draw_type": "Night",
+      "weather_picks": [
+        "619",
+        "519",
+        "639"
+      ],
+      "calendar_picks": [
+        "639",
+        "619",
+        "636"
+      ],
+      "baseline_picks": [
+        "116",
+        "215",
+        "210"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 22.0,
+        "relative_humidity_2m": 73.0,
+        "surface_pressure": 1010.1
+      },
+      "actual": "783",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.312182087373394,
+      "calendar_log_loss": 7.1956152493513175
+    },
+    {
+      "date": "2026-09-24",
+      "draw_type": "Day",
+      "weather_picks": [
+        "073",
+        "003",
+        "071"
+      ],
+      "calendar_picks": [
+        "174",
+        "194",
+        "176"
+      ],
+      "baseline_picks": [
+        "052",
+        "552",
+        "051"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 16.7,
+        "relative_humidity_2m": 86.0,
+        "surface_pressure": 1010.7
+      },
+      "actual": "910",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.91737588142501,
+      "calendar_log_loss": 6.90294161200166
+    },
+    {
+      "date": "2026-09-24",
+      "draw_type": "Night",
+      "weather_picks": [
+        "819",
+        "519",
+        "619"
+      ],
+      "calendar_picks": [
+        "639",
+        "636",
+        "619"
+      ],
+      "baseline_picks": [
+        "116",
+        "216",
+        "816"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 17.0,
+        "relative_humidity_2m": 86.0,
+        "surface_pressure": 1010.6
+      },
+      "actual": "168",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.841967212994267,
+      "calendar_log_loss": 6.830676238250173
+    },
+    {
+      "date": "2026-09-25",
+      "draw_type": "Day",
+      "weather_picks": [
+        "896",
+        "894",
+        "196"
+      ],
+      "calendar_picks": [
+        "194",
+        "196",
+        "134"
+      ],
+      "baseline_picks": [
+        "051",
+        "050",
+        "551"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 19.3,
+        "relative_humidity_2m": 44.0,
+        "surface_pressure": 1008.3
+      },
+      "actual": "498",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.900044112976211,
+      "calendar_log_loss": 6.941868153522018
+    },
+    {
+      "date": "2026-09-25",
+      "draw_type": "Night",
+      "weather_picks": [
+        "096",
+        "036",
+        "896"
+      ],
+      "calendar_picks": [
+        "836",
+        "839",
+        "846"
+      ],
+      "baseline_picks": [
+        "116",
+        "115",
+        "117"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 23.5,
+        "relative_humidity_2m": 20.0,
+        "surface_pressure": 1005.5
+      },
+      "actual": "196",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.501793594208905,
+      "calendar_log_loss": 6.789781933315877
+    },
+    {
+      "date": "2026-09-26",
+      "draw_type": "Day",
+      "weather_picks": [
+        "896",
+        "894",
+        "846"
+      ],
+      "calendar_picks": [
+        "194",
+        "134",
+        "196"
+      ],
+      "baseline_picks": [
+        "051",
+        "451",
+        "551"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 23.1,
+        "relative_humidity_2m": 35.0,
+        "surface_pressure": 1006.1
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-09-26",
+      "draw_type": "Night",
+      "weather_picks": [
+        "036",
+        "096",
+        "086"
+      ],
+      "calendar_picks": [
+        "836",
+        "826",
+        "846"
+      ],
+      "baseline_picks": [
+        "116",
+        "136",
+        "216"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 27.0,
+        "relative_humidity_2m": 18.0,
+        "surface_pressure": 1003.1
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    }
+  ]
+}

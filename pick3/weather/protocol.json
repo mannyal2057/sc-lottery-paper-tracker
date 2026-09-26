@@ -1,0 +1,18 @@
+{
+  "version": "WEATHER-V1",
+  "created_utc": "2026-09-15T12:30:19.796613+00:00",
+  "location": "Downtown Columbia outdoor grid proxy, 34.0007,-81.0348; not indoor studio measurements",
+  "location_source": "https://www.sceducationlottery.com/Games/HowtoPlay",
+  "weather_source": "https://open-meteo.com/en/docs/historical-weather-api",
+  "training_start": "2020-01-01",
+  "features": [
+    "temperature_2m",
+    "relative_humidity_2m",
+    "surface_pressure"
+  ],
+  "method": "Separate Day/Night position logistic regressions; calendar sin/cos day of year and weekday; add temperature Celsius, humidity percent, pressure hPa. Training-only standardization, C=0.01, 10% digit uniform smoothing; independent-position product. Calendar-only control uses identical algorithm and rows.",
+  "historical_test": "2023,2024,2025 calendar-year folds, train on earlier years only. ERA5 reanalysis is retrospective, not proof of pre-draw weather availability. Outdoor site continuity before 2020 not assumed.",
+  "live": "Train on available historical weather through seven days before target or earlier; use forecast retrieved before registration cutoff. Freeze each record and source hash. Forecast/reanalysis domain mismatch is a limitation.",
+  "endpoint": "200 verified prospective draws per stream; no interim promotion. Compare weather/calendar top3 exact hits and paired log loss, with multiplicity across streams/metrics; also show original baseline. No tickets.",
+  "code_sha256": "438b282d70f926632b828dd32ea8c8bb6aba23c3592ff02528ecfe1c6ee0a8db"
+}

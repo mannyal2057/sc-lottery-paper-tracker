@@ -1,0 +1,299 @@
+{
+  "updated_utc": "2026-09-26T16:25:57.930403+00:00",
+  "status": "AWAITING_SOURCED_IDS",
+  "verified_mappings": 0,
+  "rows": [
+    {
+      "date": "2026-09-10",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-10",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-11",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-11",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-12",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-12",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-13",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-14",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-14",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-15",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-15",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-16",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-16",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-17",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-17",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-19",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-20",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-21",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-21",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-22",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-22",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-23",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-23",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-24",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-24",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-25",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-25",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-26",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-09-26",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    }
+  ],
+  "equipment_digit_counts": [],
+  "note": "No equipment prediction model activated. Unknown IDs stay null; post-draw records are descriptive only. Coverage here is the prospective paper study."
+}

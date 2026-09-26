@@ -1,0 +1,101 @@
+{
+  "label": "Exploratory reanalysis association test, not an as-issued weather backtest",
+  "rows": [
+    {
+      "draw_type": "Day",
+      "year": 2023,
+      "model": "calendar",
+      "draws": 311,
+      "top3_hits": 1,
+      "log_loss": 6.9400984152087934
+    },
+    {
+      "draw_type": "Day",
+      "year": 2023,
+      "model": "weather",
+      "draws": 311,
+      "top3_hits": 1,
+      "log_loss": 6.949699484432744
+    },
+    {
+      "draw_type": "Day",
+      "year": 2024,
+      "model": "calendar",
+      "draws": 313,
+      "top3_hits": 0,
+      "log_loss": 6.936516409735282
+    },
+    {
+      "draw_type": "Day",
+      "year": 2024,
+      "model": "weather",
+      "draws": 313,
+      "top3_hits": 1,
+      "log_loss": 6.953558791128719
+    },
+    {
+      "draw_type": "Day",
+      "year": 2025,
+      "model": "calendar",
+      "draws": 312,
+      "top3_hits": 1,
+      "log_loss": 6.917032101596298
+    },
+    {
+      "draw_type": "Day",
+      "year": 2025,
+      "model": "weather",
+      "draws": 312,
+      "top3_hits": 0,
+      "log_loss": 6.9139591427424625
+    },
+    {
+      "draw_type": "Night",
+      "year": 2023,
+      "model": "calendar",
+      "draws": 365,
+      "top3_hits": 1,
+      "log_loss": 6.917322565210239
+    },
+    {
+      "draw_type": "Night",
+      "year": 2023,
+      "model": "weather",
+      "draws": 365,
+      "top3_hits": 2,
+      "log_loss": 6.918918664787153
+    },
+    {
+      "draw_type": "Night",
+      "year": 2024,
+      "model": "calendar",
+      "draws": 366,
+      "top3_hits": 2,
+      "log_loss": 6.914087407469013
+    },
+    {
+      "draw_type": "Night",
+      "year": 2024,
+      "model": "weather",
+      "draws": 366,
+      "top3_hits": 0,
+      "log_loss": 6.930192364366059
+    },
+    {
+      "draw_type": "Night",
+      "year": 2025,
+      "model": "calendar",
+      "draws": 365,
+      "top3_hits": 3,
+      "log_loss": 6.906171642773003
+    },
+    {
+      "draw_type": "Night",
+      "year": 2025,
+      "model": "weather",
+      "draws": 365,
+      "top3_hits": 4,
+      "log_loss": 6.90992963662661
+    }
+  ]
+}

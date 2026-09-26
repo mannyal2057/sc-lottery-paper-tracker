@@ -1,0 +1,88 @@
+{
+  "version": "CHALLENGER-V2",
+  "status": "LOCKED_PROSPECTIVE",
+  "updated_utc": "2026-09-26T16:26:00.712223+00:00",
+  "protocol_sha256": "3568be14119b5c5ca79f1bdfc4d0465e625e0b796c266e5e1784ffc40477b2e6",
+  "totals": {
+    "scored_draws": 0,
+    "straight_hits": 0,
+    "random_straight_hits": 0,
+    "box_hits": 0,
+    "random_box_hits": 0,
+    "straight_net_usd": 0,
+    "random_straight_net_usd": 0,
+    "box_net_usd": 0,
+    "random_box_net_usd": 0,
+    "mean_model_log_loss": null,
+    "mean_uniform_log_loss": null,
+    "mean_baseline_log_loss": null
+  },
+  "checkpoint": {
+    "first_box_checkpoint_draws": 100,
+    "final_draws_per_stream": 200
+  },
+  "rows": [
+    {
+      "date": "2026-09-26",
+      "draw_type": "Day",
+      "registered_utc": "2026-09-26T15:41:20.744398+00:00",
+      "straight_picks": [
+        "752",
+        "844",
+        "452"
+      ],
+      "box_picks": [
+        {
+          "digits": "148",
+          "ways": 6,
+          "probability": 0.0061684937965316685,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "478",
+          "ways": 6,
+          "probability": 0.006128146571719322,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "145",
+          "ways": 6,
+          "probability": 0.006123546777776445,
+          "gross_prize_usd": 80
+        }
+      ],
+      "result": null
+    },
+    {
+      "date": "2026-09-26",
+      "draw_type": "Night",
+      "registered_utc": "2026-09-26T15:41:20.941430+00:00",
+      "straight_picks": [
+        "412",
+        "312",
+        "512"
+      ],
+      "box_picks": [
+        {
+          "digits": "123",
+          "ways": 6,
+          "probability": 0.006274562612225688,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "012",
+          "ways": 6,
+          "probability": 0.0061888227593020415,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "139",
+          "ways": 6,
+          "probability": 0.006188012804154571,
+          "gross_prize_usd": 80
+        }
+      ],
+      "result": null
+    }
+  ]
+}

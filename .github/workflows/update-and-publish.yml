@@ -1,0 +1,76 @@
+name: Update predictions and publish dashboard
+
+on:
+  schedule:
+    - cron: "5 9,15 * * *"
+      timezone: "America/New_York"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sc-lottery-update
+  cancel-in-progress: false
+
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+
+      - name: Update Pick 3 records
+        working-directory: pick3
+        run: |
+          python paper_track.py
+          python three_pick_review.py
+          python weather_experiment.py
+          python equipment_context.py
+          python box_track.py
+          python challenger_v2.py
+
+      - name: Update Pick 4 records
+        working-directory: pick4
+        run: python pick4_track.py
+
+      - name: Thursday weekly review
+        working-directory: pick3
+        run: |
+          if [ "$(TZ=America/New_York date +%u)" = "4" ] && [ "$(TZ=America/New_York date +%H)" -lt "12" ]; then
+            python weekly_review.py
+          fi
+
+      - name: Build public dashboard
+        run: python build_dashboard.py
+
+      - name: Preserve new registered records
+        run: |
+          git config user.name "SC Lottery Paper Tracker"
+          git config user.email "actions@users.noreply.github.com"
+          git add pick3/paper pick3/weather pick3/equipment pick3/box pick3/challenger_v2 pick4/study site
+          if ! git diff --cached --quiet; then
+            git commit -m "Update prospective paper records"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Publish dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4

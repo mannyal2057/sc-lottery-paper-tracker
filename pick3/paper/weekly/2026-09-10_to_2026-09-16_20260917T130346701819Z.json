@@ -1,0 +1,301 @@
+{
+  "start": "2026-09-10",
+  "end": "2026-09-16",
+  "reviewed_utc": "2026-09-17T13:03:46.701808+00:00",
+  "version": "TOP3-V1",
+  "totals": {
+    "Day": {
+      "verified": 6,
+      "model_top3_hits": 0,
+      "random_top3_hits": 0,
+      "box_hits": 0,
+      "model_paper_net_usd": -18,
+      "random_paper_net_usd": -18
+    },
+    "Night": {
+      "verified": 7,
+      "model_top3_hits": 0,
+      "random_top3_hits": 0,
+      "box_hits": 0,
+      "model_paper_net_usd": -21,
+      "random_paper_net_usd": -21
+    }
+  },
+  "rows": [
+    {
+      "date": "2026-09-10",
+      "draw_type": "Day",
+      "picks": [
+        "484",
+        "481",
+        "444"
+      ],
+      "random_picks": [
+        "727",
+        "583",
+        "612"
+      ],
+      "status": "verified",
+      "actual": "275",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0
+    },
+    {
+      "date": "2026-09-10",
+      "draw_type": "Night",
+      "picks": [
+        "013",
+        "033",
+        "403"
+      ],
+      "random_picks": [
+        "218",
+        "142",
+        "044"
+      ],
+      "status": "verified",
+      "actual": "286",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0
+    },
+    {
+      "date": "2026-09-11",
+      "draw_type": "Day",
+      "picks": [
+        "481",
+        "487",
+        "484"
+      ],
+      "random_picks": [
+        "617",
+        "794",
+        "033"
+      ],
+      "status": "verified",
+      "actual": "552",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0
+    },
+    {
+      "date": "2026-09-11",
+      "draw_type": "Night",
+      "picks": [
+        "405",
+        "705",
+        "435"
+      ],
+      "random_picks": [
+        "976",
+        "867",
+        "424"
+      ],
+      "status": "verified",
+      "actual": "937",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1
+    },
+    {
+      "date": "2026-09-12",
+      "draw_type": "Day",
+      "picks": [
+        "481",
+        "487",
+        "484"
+      ],
+      "random_picks": [
+        "948",
+        "487",
+        "682"
+      ],
+      "status": "verified",
+      "actual": "654",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1
+    },
+    {
+      "date": "2026-09-12",
+      "draw_type": "Night",
+      "picks": [
+        "403",
+        "237",
+        "503"
+      ],
+      "random_picks": [
+        "171",
+        "765",
+        "649"
+      ],
+      "status": "verified",
+      "actual": "501",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 2,
+      "best_digit_overlap": 2
+    },
+    {
+      "date": "2026-09-13",
+      "draw_type": "Night",
+      "picks": [
+        "813",
+        "913",
+        "312"
+      ],
+      "random_picks": [
+        "725",
+        "861",
+        "406"
+      ],
+      "status": "verified",
+      "actual": "218",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 2
+    },
+    {
+      "date": "2026-09-14",
+      "draw_type": "Day",
+      "picks": [
+        "484",
+        "584",
+        "454"
+      ],
+      "random_picks": [
+        "930",
+        "819",
+        "130"
+      ],
+      "status": "verified",
+      "actual": "702",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0
+    },
+    {
+      "date": "2026-09-14",
+      "draw_type": "Night",
+      "picks": [
+        "404",
+        "464",
+        "213"
+      ],
+      "random_picks": [
+        "013",
+        "136",
+        "172"
+      ],
+      "status": "verified",
+      "actual": "116",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1
+    },
+    {
+      "date": "2026-09-15",
+      "draw_type": "Day",
+      "picks": [
+        "484",
+        "482",
+        "584"
+      ],
+      "random_picks": [
+        "363",
+        "957",
+        "933"
+      ],
+      "status": "verified",
+      "actual": "035",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 1
+    },
+    {
+      "date": "2026-09-15",
+      "draw_type": "Night",
+      "picks": [
+        "216",
+        "816",
+        "815"
+      ],
+      "random_picks": [
+        "706",
+        "194",
+        "393"
+      ],
+      "status": "verified",
+      "actual": "433",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0
+    },
+    {
+      "date": "2026-09-16",
+      "draw_type": "Day",
+      "picks": [
+        "482",
+        "582",
+        "452"
+      ],
+      "random_picks": [
+        "333",
+        "628",
+        "289"
+      ],
+      "status": "verified",
+      "actual": "980",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1
+    },
+    {
+      "date": "2026-09-16",
+      "draw_type": "Night",
+      "picks": [
+        "113",
+        "815",
+        "215"
+      ],
+      "random_picks": [
+        "248",
+        "048",
+        "872"
+      ],
+      "status": "verified",
+      "actual": "974",
+      "straight_hit": false,
+      "random_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0
+    }
+  ],
+  "issues": [],
+  "decision": "Keep the frozen baseline. A week is too small to establish a betting edge. Any proposed adjustment must be documented as a new prospective version and compared alongside the baseline, not substituted into past records."
+}

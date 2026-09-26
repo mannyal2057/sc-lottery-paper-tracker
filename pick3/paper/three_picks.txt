@@ -1,0 +1,31 @@
+THREE-PICK SLATES — Eastern time
+
+2026-09-10 Day: 484, 481, 444 | Actual: 275 | Review: 2026-09-11
+2026-09-10 Night: 013, 033, 403 | Actual: 286 | Review: 2026-09-11
+2026-09-11 Day: 481, 487, 484 | Actual: 552 | Review: 2026-09-12
+2026-09-11 Night: 405, 705, 435 | Actual: 937 | Review: 2026-09-12
+2026-09-12 Day: 481, 487, 484 | Actual: 654 | Review: 2026-09-13
+2026-09-12 Night: 403, 237, 503 | Actual: 501 | Review: 2026-09-13
+2026-09-13 Night: 813, 913, 312 | Actual: 218 | Review: 2026-09-14
+2026-09-14 Day: 484, 584, 454 | Actual: 702 | Review: 2026-09-15
+2026-09-14 Night: 404, 464, 213 | Actual: 116 | Review: 2026-09-15
+2026-09-15 Day: 484, 482, 584 | Actual: 035 | Review: 2026-09-16
+2026-09-15 Night: 216, 816, 815 | Actual: 433 | Review: 2026-09-16
+2026-09-16 Day: 482, 582, 452 | Actual: 980 | Review: 2026-09-17
+2026-09-16 Night: 113, 815, 215 | Actual: 974 | Review: 2026-09-17
+2026-09-17 Day: 482, 481, 484 | Actual: 957 | Review: 2026-09-18
+2026-09-17 Night: 116, 118, 110 | Actual: 782 | Review: 2026-09-18
+2026-09-19 Night: 118, 213, 113 | Actual: 125 | Review: 2026-09-20
+2026-09-20 Night: 215, 118, 115 | Actual: 756 | Review: 2026-09-21
+2026-09-21 Day: 552, 452, 551 | Actual: 183 | Review: 2026-09-22
+2026-09-21 Night: 116, 115, 409 | Actual: 391 | Review: 2026-09-22
+2026-09-22 Day: 487, 482, 481 | Actual: 148 | Review: 2026-09-23
+2026-09-22 Night: 116, 435, 405 | Actual: 130 | Review: 2026-09-23
+2026-09-23 Day: 581, 580, 551 | Actual: 456 | Review: 2026-09-24
+2026-09-23 Night: 116, 215, 210 | Actual: 783 | Review: 2026-09-24
+2026-09-24 Day: 052, 552, 051 | Actual: 910 | Review: 2026-09-25
+2026-09-24 Night: 116, 216, 816 | Actual: 168 | Review: 2026-09-25
+2026-09-25 Day: 051, 050, 551 | Actual: 498 | Review: 2026-09-26
+2026-09-25 Night: 116, 115, 117 | Actual: 196 | Review: 2026-09-26
+2026-09-26 Day: 051, 451, 551 | Actual: pending | Review: 2026-09-27
+2026-09-26 Night: 116, 136, 216 | Actual: pending | Review: 2026-09-27

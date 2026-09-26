@@ -1,0 +1,1920 @@
+{
+  "delivered": {
+    "slate:2026-09-10": {
+      "note": "Day and Night three-pick slates were already shown in the preceding user-facing reply."
+    },
+    "midday:2026-09-10:official275-awaiting-archive": {
+      "delivered_utc": "2026-09-10T15:05:17.383349-04:00",
+      "official_number": "275",
+      "status": "Awaiting archive confirmation; study unscored",
+      "original_picks": [
+        "484",
+        "481",
+        "444"
+      ],
+      "evening_picks": [
+        "013",
+        "033",
+        "403"
+      ]
+    },
+    "slate:2026-09-11": {
+      "note": "Picks shown in preceding user-facing reply."
+    },
+    "midday:2026-09-11:official552-awaiting-archive": {
+      "evening_picks": [
+        "405",
+        "705",
+        "435"
+      ],
+      "status": "Awaiting archive confirmation; study unscored",
+      "original_picks": [
+        "481",
+        "487",
+        "484"
+      ],
+      "official_number": "552",
+      "delivered_utc": "2026-09-11T19:01:21.7512404Z"
+    },
+    "daily-review:2026-09-12": {
+      "delivered_utc": "2026-09-12T13:03:41.912087+00:00",
+      "rows": [
+        {
+          "date": "2026-09-11",
+          "draw_type": "Day",
+          "picks": [
+            "481",
+            "487",
+            "484"
+          ],
+          "random_picks": [
+            "617",
+            "794",
+            "033"
+          ],
+          "original_registered_utc": "2026-09-11T13:02:20.961488+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "552",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 0,
+          "review_on": "2026-09-12"
+        },
+        {
+          "date": "2026-09-11",
+          "draw_type": "Night",
+          "picks": [
+            "405",
+            "705",
+            "435"
+          ],
+          "random_picks": [
+            "976",
+            "867",
+            "424"
+          ],
+          "original_registered_utc": "2026-09-11T13:02:30.356871+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "937",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 1,
+          "best_digit_overlap": 1,
+          "review_on": "2026-09-12"
+        }
+      ]
+    },
+    "slate:2026-09-12": {
+      "delivered_utc": "2026-09-12T13:03:41.912087+00:00",
+      "rows": [
+        {
+          "date": "2026-09-12",
+          "draw_type": "Day",
+          "picks": [
+            "481",
+            "487",
+            "484"
+          ],
+          "random_picks": [
+            "948",
+            "487",
+            "682"
+          ],
+          "original_registered_utc": "2026-09-12T13:03:10.581246+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-13"
+        },
+        {
+          "date": "2026-09-12",
+          "draw_type": "Night",
+          "picks": [
+            "403",
+            "237",
+            "503"
+          ],
+          "random_picks": [
+            "171",
+            "765",
+            "649"
+          ],
+          "original_registered_utc": "2026-09-12T13:03:20.660126+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-13"
+        }
+      ]
+    },
+    "midday:2026-09-12:official654-awaiting-archive": {
+      "delivered_utc": "2026-09-12T19:01:24.161094+00:00",
+      "official_number": "654",
+      "status": "Awaiting archive confirmation; study unscored",
+      "original_picks": [
+        "481",
+        "487",
+        "484"
+      ],
+      "evening_picks": [
+        "403",
+        "237",
+        "503"
+      ]
+    },
+    "daily-review:2026-09-13": {
+      "delivered_utc": "2026-09-13T13:03:49.754900+00:00",
+      "rows": [
+        {
+          "date": "2026-09-12",
+          "draw_type": "Day",
+          "picks": [
+            "481",
+            "487",
+            "484"
+          ],
+          "random_picks": [
+            "948",
+            "487",
+            "682"
+          ],
+          "original_registered_utc": "2026-09-12T13:03:10.581246+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "654",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 1,
+          "best_digit_overlap": 1,
+          "review_on": "2026-09-13"
+        },
+        {
+          "date": "2026-09-12",
+          "draw_type": "Night",
+          "picks": [
+            "403",
+            "237",
+            "503"
+          ],
+          "random_picks": [
+            "171",
+            "765",
+            "649"
+          ],
+          "original_registered_utc": "2026-09-12T13:03:20.660126+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "501",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 2,
+          "best_digit_overlap": 2,
+          "review_on": "2026-09-13"
+        }
+      ]
+    },
+    "slate:2026-09-13": {
+      "delivered_utc": "2026-09-13T13:03:49.754900+00:00",
+      "rows": [
+        {
+          "date": "2026-09-13",
+          "draw_type": "Night",
+          "picks": [
+            "813",
+            "913",
+            "312"
+          ],
+          "random_picks": [
+            "725",
+            "861",
+            "406"
+          ],
+          "original_registered_utc": "2026-09-13T13:03:27.621683+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-14"
+        }
+      ],
+      "midday": "No Sunday drawing"
+    },
+    "daily-review:2026-09-14": {
+      "delivered_utc": "2026-09-14T13:03:03.253781+00:00",
+      "rows": [
+        {
+          "date": "2026-09-13",
+          "draw_type": "Night",
+          "picks": [
+            "813",
+            "913",
+            "312"
+          ],
+          "random_picks": [
+            "725",
+            "861",
+            "406"
+          ],
+          "original_registered_utc": "2026-09-13T13:03:27.621683+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "218",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 1,
+          "best_digit_overlap": 2,
+          "review_on": "2026-09-14"
+        }
+      ],
+      "midday": "No Sunday drawing"
+    },
+    "slate:2026-09-14": {
+      "delivered_utc": "2026-09-14T13:03:03.253781+00:00",
+      "rows": [
+        {
+          "date": "2026-09-14",
+          "draw_type": "Day",
+          "picks": [
+            "484",
+            "584",
+            "454"
+          ],
+          "random_picks": [
+            "930",
+            "819",
+            "130"
+          ],
+          "original_registered_utc": "2026-09-13T13:03:03.130872+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-15"
+        },
+        {
+          "date": "2026-09-14",
+          "draw_type": "Night",
+          "picks": [
+            "404",
+            "464",
+            "213"
+          ],
+          "random_picks": [
+            "013",
+            "136",
+            "172"
+          ],
+          "original_registered_utc": "2026-09-14T13:02:35.171805+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-15"
+        }
+      ]
+    },
+    "midday:2026-09-14:official702-awaiting-archive": {
+      "delivered_utc": "2026-09-14T19:02:40.127736+00:00",
+      "official_number": "702",
+      "status": "Awaiting archive confirmation; study unscored",
+      "original_picks": [
+        "484",
+        "584",
+        "454"
+      ],
+      "evening_picks": [
+        "404",
+        "464",
+        "213"
+      ]
+    },
+    "daily-review:2026-09-15": {
+      "delivered_utc": "2026-09-15T13:02:08.999248+00:00",
+      "rows": [
+        {
+          "date": "2026-09-14",
+          "draw_type": "Day",
+          "picks": [
+            "484",
+            "584",
+            "454"
+          ],
+          "random_picks": [
+            "930",
+            "819",
+            "130"
+          ],
+          "original_registered_utc": "2026-09-13T13:03:03.130872+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "702",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 0,
+          "review_on": "2026-09-15"
+        },
+        {
+          "date": "2026-09-14",
+          "draw_type": "Night",
+          "picks": [
+            "404",
+            "464",
+            "213"
+          ],
+          "random_picks": [
+            "013",
+            "136",
+            "172"
+          ],
+          "original_registered_utc": "2026-09-14T13:02:35.171805+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "116",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 1,
+          "best_digit_overlap": 1,
+          "review_on": "2026-09-15"
+        }
+      ]
+    },
+    "slate:2026-09-15": {
+      "delivered_utc": "2026-09-15T13:02:08.999248+00:00",
+      "rows": [
+        {
+          "date": "2026-09-15",
+          "draw_type": "Day",
+          "picks": [
+            "484",
+            "482",
+            "584"
+          ],
+          "random_picks": [
+            "363",
+            "957",
+            "933"
+          ],
+          "original_registered_utc": "2026-09-15T12:17:22.634234+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-16"
+        },
+        {
+          "date": "2026-09-15",
+          "draw_type": "Night",
+          "picks": [
+            "216",
+            "816",
+            "815"
+          ],
+          "random_picks": [
+            "706",
+            "194",
+            "393"
+          ],
+          "original_registered_utc": "2026-09-15T12:17:32.282677+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-16"
+        }
+      ]
+    },
+    "weather-slate:2026-09-15": {
+      "delivered_utc": "2026-09-15T13:02:08.999248+00:00",
+      "rows": [
+        {
+          "date": "2026-09-15",
+          "draw_type": "Day",
+          "weather_picks": [
+            "077",
+            "877",
+            "097"
+          ],
+          "calendar_picks": [
+            "077",
+            "977",
+            "177"
+          ],
+          "baseline_picks": [
+            "484",
+            "482",
+            "584"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 29.7,
+            "relative_humidity_2m": 51.0,
+            "surface_pressure": 1013.9
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        },
+        {
+          "date": "2026-09-15",
+          "draw_type": "Night",
+          "weather_picks": [
+            "699",
+            "649",
+            "199"
+          ],
+          "calendar_picks": [
+            "619",
+            "639",
+            "699"
+          ],
+          "baseline_picks": [
+            "216",
+            "816",
+            "815"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 32.2,
+            "relative_humidity_2m": 36.0,
+            "surface_pressure": 1012.5
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        }
+      ],
+      "note": "Also shown earlier when weather experiment was added."
+    },
+    "midday:2026-09-15:official035-awaiting-archive": {
+      "delivered_utc": "2026-09-15T19:01:38.427473+00:00",
+      "official_number": "035",
+      "status": "Awaiting archive confirmation; all studies unscored",
+      "evening_straights": [
+        "216",
+        "816",
+        "815"
+      ],
+      "evening_weather": [
+        "699",
+        "649",
+        "199"
+      ],
+      "evening_box": [
+        "138",
+        "389",
+        "123"
+      ]
+    },
+    "box-slate:2026-09-15": {
+      "delivered_utc": "2026-09-15T19:01:38.427473+00:00",
+      "note": "Box picks shown when added; evening reconfirmed in midday update."
+    },
+    "daily-review:2026-09-16": {
+      "delivered_utc": "2026-09-16T13:05:40.642513+00:00",
+      "rows": [
+        {
+          "date": "2026-09-15",
+          "draw_type": "Day",
+          "picks": [
+            "484",
+            "482",
+            "584"
+          ],
+          "random_picks": [
+            "363",
+            "957",
+            "933"
+          ],
+          "original_registered_utc": "2026-09-15T12:17:22.634234+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "035",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 1,
+          "review_on": "2026-09-16"
+        },
+        {
+          "date": "2026-09-15",
+          "draw_type": "Night",
+          "picks": [
+            "216",
+            "816",
+            "815"
+          ],
+          "random_picks": [
+            "706",
+            "194",
+            "393"
+          ],
+          "original_registered_utc": "2026-09-15T12:17:32.282677+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "433",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 0,
+          "review_on": "2026-09-16"
+        }
+      ],
+      "weather_rows": [
+        {
+          "date": "2026-09-15",
+          "draw_type": "Day",
+          "weather_picks": [
+            "077",
+            "877",
+            "097"
+          ],
+          "calendar_picks": [
+            "077",
+            "977",
+            "177"
+          ],
+          "baseline_picks": [
+            "484",
+            "482",
+            "584"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 29.7,
+            "relative_humidity_2m": 51.0,
+            "surface_pressure": 1013.9
+          },
+          "actual": "035",
+          "weather_hit": false,
+          "calendar_hit": false,
+          "baseline_hit": false,
+          "weather_log_loss": 6.707082163563665,
+          "calendar_log_loss": 6.754458324756213
+        },
+        {
+          "date": "2026-09-15",
+          "draw_type": "Night",
+          "weather_picks": [
+            "699",
+            "649",
+            "199"
+          ],
+          "calendar_picks": [
+            "619",
+            "639",
+            "699"
+          ],
+          "baseline_picks": [
+            "216",
+            "816",
+            "815"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 32.2,
+            "relative_humidity_2m": 36.0,
+            "surface_pressure": 1012.5
+          },
+          "actual": "433",
+          "weather_hit": false,
+          "calendar_hit": false,
+          "baseline_hit": false,
+          "weather_log_loss": 6.908308056685819,
+          "calendar_log_loss": 6.880727045902262
+        }
+      ],
+      "box_rows": [
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-15",
+          "draw_type": "Day",
+          "registered_utc": "2026-09-15T14:17:50.325180+00:00",
+          "baseline_sha256": "f053fc273a965d4fa9577b6826d6cd87b65a1ed55ec22efad37e24af1a6822cd",
+          "picks": [
+            {
+              "digits": "145",
+              "ways": 6,
+              "model_probability": 0.00680584020920646,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "248",
+              "ways": 6,
+              "model_probability": 0.006803359609685682,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "245",
+              "ways": 6,
+              "model_probability": 0.006768279404320731,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "014",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "347",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "178",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": {
+            "actual": "035",
+            "forecast_sha256": "a7850b34b96c9c568cb92f8036cb6e365a453d777dced70d63e8ac8f2075ef9a",
+            "verified_result_sha256": "9393c7ac11b9bf147776fc64631b385ec309573512abf24a8cb2e8a4d02bdd57",
+            "gross_usd": 0,
+            "net_usd": -3,
+            "random_gross_usd": 0,
+            "random_net_usd": -3
+          }
+        },
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-15",
+          "draw_type": "Night",
+          "registered_utc": "2026-09-15T14:17:50.341102+00:00",
+          "baseline_sha256": "9f0cf864735bd187fee8d8f725e4223dbfc1dc94ba39884ec31ffa2ae21906d1",
+          "picks": [
+            {
+              "digits": "138",
+              "ways": 6,
+              "model_probability": 0.006253873639521372,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "389",
+              "ways": 6,
+              "model_probability": 0.006205603202672809,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "123",
+              "ways": 6,
+              "model_probability": 0.006203142794122622,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "389",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "136",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "478",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": {
+            "actual": "433",
+            "forecast_sha256": "48f6df605649f829414d47200fd9fe7eaeb8ad55538cfea9eb15211b8a4e8b91",
+            "verified_result_sha256": "28e49d0c006cb0f810cbc986b15c2a91b67d731747a181f3dfd78cb2d7d19534",
+            "gross_usd": 0,
+            "net_usd": -3,
+            "random_gross_usd": 0,
+            "random_net_usd": -3
+          }
+        }
+      ]
+    },
+    "slate:2026-09-16": {
+      "delivered_utc": "2026-09-16T13:05:40.642513+00:00",
+      "rows": [
+        {
+          "date": "2026-09-16",
+          "draw_type": "Day",
+          "picks": [
+            "482",
+            "582",
+            "452"
+          ],
+          "random_picks": [
+            "333",
+            "628",
+            "289"
+          ],
+          "original_registered_utc": "2026-09-16T13:01:35.137427+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-17"
+        },
+        {
+          "date": "2026-09-16",
+          "draw_type": "Night",
+          "picks": [
+            "113",
+            "815",
+            "215"
+          ],
+          "random_picks": [
+            "248",
+            "048",
+            "872"
+          ],
+          "original_registered_utc": "2026-09-16T13:01:59.334943+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-17"
+        }
+      ]
+    },
+    "weather-slate:2026-09-16": {
+      "delivered_utc": "2026-09-16T13:05:40.642513+00:00",
+      "rows": [
+        {
+          "date": "2026-09-16",
+          "draw_type": "Day",
+          "weather_picks": [
+            "077",
+            "097",
+            "477"
+          ],
+          "calendar_picks": [
+            "077",
+            "177",
+            "877"
+          ],
+          "baseline_picks": [
+            "482",
+            "582",
+            "452"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 26.5,
+            "relative_humidity_2m": 59.0,
+            "surface_pressure": 1016.8
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        },
+        {
+          "date": "2026-09-16",
+          "draw_type": "Night",
+          "weather_picks": [
+            "699",
+            "649",
+            "899"
+          ],
+          "calendar_picks": [
+            "639",
+            "619",
+            "649"
+          ],
+          "baseline_picks": [
+            "113",
+            "815",
+            "215"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 30.6,
+            "relative_humidity_2m": 36.0,
+            "surface_pressure": 1014.6
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        }
+      ]
+    },
+    "box-slate:2026-09-16": {
+      "delivered_utc": "2026-09-16T13:05:40.642513+00:00",
+      "rows": [
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-16",
+          "draw_type": "Day",
+          "registered_utc": "2026-09-16T13:03:01.650032+00:00",
+          "baseline_sha256": "e9ee726a825ed390da918d63ccdd0c4228a5df1ee157580a1daa4a27d9c6287a",
+          "picks": [
+            {
+              "digits": "245",
+              "ways": 6,
+              "model_probability": 0.0067489320869286796,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "457",
+              "ways": 6,
+              "model_probability": 0.006671622201896463,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "458",
+              "ways": 6,
+              "model_probability": 0.006636313625696182,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "067",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "159",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "379",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": null
+        },
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-16",
+          "draw_type": "Night",
+          "registered_utc": "2026-09-16T13:03:01.666237+00:00",
+          "baseline_sha256": "bc5f03689a297e6e3638f151db3270057b7a3104e761b6c985186b9b410a4075",
+          "picks": [
+            {
+              "digits": "138",
+              "ways": 6,
+              "model_probability": 0.006257039011560446,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "123",
+              "ways": 6,
+              "model_probability": 0.006250296999521747,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "013",
+              "ways": 6,
+              "model_probability": 0.006224919961023055,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "468",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "378",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "289",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": null
+        }
+      ]
+    },
+    "midday:2026-09-16:official980-awaiting-archive": {
+      "delivered_utc": "2026-09-16T19:02:02.797647+00:00",
+      "official_number": "980",
+      "status": "Awaiting archive confirmation; all studies unscored",
+      "evening_straights": [
+        "113",
+        "815",
+        "215"
+      ],
+      "evening_weather": [
+        "699",
+        "649",
+        "899"
+      ],
+      "evening_box": [
+        "138",
+        "123",
+        "013"
+      ]
+    },
+    "daily-review:2026-09-17": {
+      "delivered_utc": "2026-09-17T13:04:43.970356+00:00",
+      "rows": [
+        {
+          "date": "2026-09-16",
+          "draw_type": "Day",
+          "picks": [
+            "482",
+            "582",
+            "452"
+          ],
+          "random_picks": [
+            "333",
+            "628",
+            "289"
+          ],
+          "original_registered_utc": "2026-09-16T13:01:35.137427+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "980",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 1,
+          "best_digit_overlap": 1,
+          "review_on": "2026-09-17"
+        },
+        {
+          "date": "2026-09-16",
+          "draw_type": "Night",
+          "picks": [
+            "113",
+            "815",
+            "215"
+          ],
+          "random_picks": [
+            "248",
+            "048",
+            "872"
+          ],
+          "original_registered_utc": "2026-09-16T13:01:59.334943+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "974",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 0,
+          "review_on": "2026-09-17"
+        }
+      ],
+      "weather_rows": [
+        {
+          "date": "2026-09-16",
+          "draw_type": "Day",
+          "weather_picks": [
+            "077",
+            "097",
+            "477"
+          ],
+          "calendar_picks": [
+            "077",
+            "177",
+            "877"
+          ],
+          "baseline_picks": [
+            "482",
+            "582",
+            "452"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 26.5,
+            "relative_humidity_2m": 59.0,
+            "surface_pressure": 1016.8
+          },
+          "actual": "980",
+          "weather_hit": false,
+          "calendar_hit": false,
+          "baseline_hit": false,
+          "weather_log_loss": 7.001102148002837,
+          "calendar_log_loss": 6.967541230700826
+        },
+        {
+          "date": "2026-09-16",
+          "draw_type": "Night",
+          "weather_picks": [
+            "699",
+            "649",
+            "899"
+          ],
+          "calendar_picks": [
+            "639",
+            "619",
+            "649"
+          ],
+          "baseline_picks": [
+            "113",
+            "815",
+            "215"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 30.6,
+            "relative_humidity_2m": 36.0,
+            "surface_pressure": 1014.6
+          },
+          "actual": "974",
+          "weather_hit": false,
+          "calendar_hit": false,
+          "baseline_hit": false,
+          "weather_log_loss": 7.1674725372068835,
+          "calendar_log_loss": 7.142424928841763
+        }
+      ],
+      "box_rows": [
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-16",
+          "draw_type": "Day",
+          "registered_utc": "2026-09-16T13:03:01.650032+00:00",
+          "baseline_sha256": "e9ee726a825ed390da918d63ccdd0c4228a5df1ee157580a1daa4a27d9c6287a",
+          "picks": [
+            {
+              "digits": "245",
+              "ways": 6,
+              "model_probability": 0.0067489320869286796,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "457",
+              "ways": 6,
+              "model_probability": 0.006671622201896463,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "458",
+              "ways": 6,
+              "model_probability": 0.006636313625696182,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "067",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "159",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "379",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": {
+            "actual": "980",
+            "forecast_sha256": "445b4baf0199d2791f7fb0da1606ba0e5e3c8c3c36bb55162609297c5e0ebbc2",
+            "verified_result_sha256": "c5e41b82ec833719cd9361d0c986076abfabcb482cf47f9a7aaed2991294b653",
+            "gross_usd": 0,
+            "net_usd": -3,
+            "random_gross_usd": 0,
+            "random_net_usd": -3
+          }
+        },
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-16",
+          "draw_type": "Night",
+          "registered_utc": "2026-09-16T13:03:01.666237+00:00",
+          "baseline_sha256": "bc5f03689a297e6e3638f151db3270057b7a3104e761b6c985186b9b410a4075",
+          "picks": [
+            {
+              "digits": "138",
+              "ways": 6,
+              "model_probability": 0.006257039011560446,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "123",
+              "ways": 6,
+              "model_probability": 0.006250296999521747,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "013",
+              "ways": 6,
+              "model_probability": 0.006224919961023055,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "468",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "378",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "289",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": {
+            "actual": "974",
+            "forecast_sha256": "9f63d4eb058df642180e470236e022955c60bb126a709ca4adc4b549c5d72e27",
+            "verified_result_sha256": "1b640b8c22bc0c25d595eff28005ae6b7e0fd6d120787a0ede172d63e06ce39b",
+            "gross_usd": 0,
+            "net_usd": -3,
+            "random_gross_usd": 0,
+            "random_net_usd": -3
+          }
+        }
+      ]
+    },
+    "slate:2026-09-17": {
+      "delivered_utc": "2026-09-17T13:04:43.970356+00:00",
+      "rows": [
+        {
+          "date": "2026-09-17",
+          "draw_type": "Day",
+          "picks": [
+            "482",
+            "481",
+            "484"
+          ],
+          "random_picks": [
+            "424",
+            "693",
+            "057"
+          ],
+          "original_registered_utc": "2026-09-17T13:02:52.835718+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-18"
+        },
+        {
+          "date": "2026-09-17",
+          "draw_type": "Night",
+          "picks": [
+            "116",
+            "118",
+            "110"
+          ],
+          "random_picks": [
+            "858",
+            "171",
+            "906"
+          ],
+          "original_registered_utc": "2026-09-17T13:03:17.284584+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-18"
+        }
+      ]
+    },
+    "weather-slate:2026-09-17": {
+      "delivered_utc": "2026-09-17T13:04:43.970356+00:00",
+      "rows": [
+        {
+          "date": "2026-09-17",
+          "draw_type": "Day",
+          "weather_picks": [
+            "897",
+            "894",
+            "892"
+          ],
+          "calendar_picks": [
+            "174",
+            "176",
+            "194"
+          ],
+          "baseline_picks": [
+            "482",
+            "481",
+            "484"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 28.7,
+            "relative_humidity_2m": 39.0,
+            "surface_pressure": 1014.0
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        },
+        {
+          "date": "2026-09-17",
+          "draw_type": "Night",
+          "weather_picks": [
+            "696",
+            "896",
+            "196"
+          ],
+          "calendar_picks": [
+            "639",
+            "649",
+            "636"
+          ],
+          "baseline_picks": [
+            "116",
+            "118",
+            "110"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 32.6,
+            "relative_humidity_2m": 24.0,
+            "surface_pressure": 1011.1
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        }
+      ]
+    },
+    "box-slate:2026-09-17": {
+      "delivered_utc": "2026-09-17T13:04:43.970356+00:00",
+      "rows": [
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-17",
+          "draw_type": "Day",
+          "registered_utc": "2026-09-17T13:03:43.459371+00:00",
+          "baseline_sha256": "5f7ce2a27a827317d67fb01254130f499c6bf4c9078a6ed916ad23a3fb7bbffe",
+          "picks": [
+            {
+              "digits": "045",
+              "ways": 6,
+              "model_probability": 0.0068472938754517996,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "457",
+              "ways": 6,
+              "model_probability": 0.006774972496205785,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "145",
+              "ways": 6,
+              "model_probability": 0.006764150280651799,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "568",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "147",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "145",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": null
+        },
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-17",
+          "draw_type": "Night",
+          "registered_utc": "2026-09-17T13:03:43.472229+00:00",
+          "baseline_sha256": "c8f6345e37381c11c5f29e288bf264298e9a053b2dd71df0650a9efe8c6ff1de",
+          "picks": [
+            {
+              "digits": "139",
+              "ways": 6,
+              "model_probability": 0.006221881438900414,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "013",
+              "ways": 6,
+              "model_probability": 0.006212863182476039,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "039",
+              "ways": 6,
+              "model_probability": 0.006206812624230329,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "239",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "158",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "267",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": null
+        }
+      ]
+    },
+    "weekly:2026-09-10_to_2026-09-16": {
+      "delivered_utc": "2026-09-17T13:04:43.970356+00:00",
+      "report_file": "2026-09-10_to_2026-09-16_20260917T130346701819Z.json",
+      "complete_review": "paper\\weekly\\2026-09-10_to_2026-09-16_complete_review.md",
+      "supplement": {
+        "weather_draws": 4,
+        "weather_hits": 0,
+        "calendar_hits": 0,
+        "baseline_same_draws_hits": 0,
+        "weather_mean_log_loss": 6.945991226364801,
+        "calendar_mean_log_loss": 6.936287882550266,
+        "box_draws": 4,
+        "box_cost": 12,
+        "box_gross": 0,
+        "box_net": -12,
+        "random_box_net": -12,
+        "equipment_verified_mappings": 0
+      }
+    },
+    "catchup-review:2026-09-19": {
+      "delivered_utc": "2026-09-19T19:31:25.671389+00:00",
+      "rows": [
+        {
+          "date": "2026-09-17",
+          "draw_type": "Day",
+          "picks": [
+            "482",
+            "481",
+            "484"
+          ],
+          "random_picks": [
+            "424",
+            "693",
+            "057"
+          ],
+          "original_registered_utc": "2026-09-17T13:02:52.835718+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "957",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 0,
+          "review_on": "2026-09-18"
+        },
+        {
+          "date": "2026-09-17",
+          "draw_type": "Night",
+          "picks": [
+            "116",
+            "118",
+            "110"
+          ],
+          "random_picks": [
+            "858",
+            "171",
+            "906"
+          ],
+          "original_registered_utc": "2026-09-17T13:03:17.284584+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": "782",
+          "straight_hit": false,
+          "random_straight_hit": false,
+          "box_hit": false,
+          "best_position_matches": 0,
+          "best_digit_overlap": 1,
+          "review_on": "2026-09-18"
+        }
+      ],
+      "weather_rows": [
+        {
+          "date": "2026-09-17",
+          "draw_type": "Day",
+          "weather_picks": [
+            "897",
+            "894",
+            "892"
+          ],
+          "calendar_picks": [
+            "174",
+            "176",
+            "194"
+          ],
+          "baseline_picks": [
+            "482",
+            "481",
+            "484"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 28.7,
+            "relative_humidity_2m": 39.0,
+            "surface_pressure": 1014.0
+          },
+          "actual": "957",
+          "weather_hit": false,
+          "calendar_hit": false,
+          "baseline_hit": false,
+          "weather_log_loss": 6.865114126883971,
+          "calendar_log_loss": 6.90171870385004
+        },
+        {
+          "date": "2026-09-17",
+          "draw_type": "Night",
+          "weather_picks": [
+            "696",
+            "896",
+            "196"
+          ],
+          "calendar_picks": [
+            "639",
+            "649",
+            "636"
+          ],
+          "baseline_picks": [
+            "116",
+            "118",
+            "110"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 32.6,
+            "relative_humidity_2m": 24.0,
+            "surface_pressure": 1011.1
+          },
+          "actual": "782",
+          "weather_hit": false,
+          "calendar_hit": false,
+          "baseline_hit": false,
+          "weather_log_loss": 7.013795282565572,
+          "calendar_log_loss": 7.105196443454938
+        }
+      ],
+      "box_rows": [
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-17",
+          "draw_type": "Day",
+          "registered_utc": "2026-09-17T13:03:43.459371+00:00",
+          "baseline_sha256": "5f7ce2a27a827317d67fb01254130f499c6bf4c9078a6ed916ad23a3fb7bbffe",
+          "picks": [
+            {
+              "digits": "045",
+              "ways": 6,
+              "model_probability": 0.0068472938754517996,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "457",
+              "ways": 6,
+              "model_probability": 0.006774972496205785,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "145",
+              "ways": 6,
+              "model_probability": 0.006764150280651799,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "568",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "147",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "145",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": {
+            "actual": "957",
+            "forecast_sha256": "f2af0648716dcf6a5aa9813e91c88299a9694955eb8fb48a3fa34bd348592c1a",
+            "verified_result_sha256": "eb52dee60ab74d88e45032c173e1954d1f5c9aa936d9d4d260a73313daaf6e74",
+            "gross_usd": 0,
+            "net_usd": -3,
+            "random_gross_usd": 0,
+            "random_net_usd": -3
+          }
+        },
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-17",
+          "draw_type": "Night",
+          "registered_utc": "2026-09-17T13:03:43.472229+00:00",
+          "baseline_sha256": "c8f6345e37381c11c5f29e288bf264298e9a053b2dd71df0650a9efe8c6ff1de",
+          "picks": [
+            {
+              "digits": "139",
+              "ways": 6,
+              "model_probability": 0.006221881438900414,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "013",
+              "ways": 6,
+              "model_probability": 0.006212863182476039,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "039",
+              "ways": 6,
+              "model_probability": 0.006206812624230329,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "239",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "158",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "267",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": {
+            "actual": "782",
+            "forecast_sha256": "f7562ff4057290ec366213009b77300d0830b8905c6bd53752cea5a7187b2996",
+            "verified_result_sha256": "4eca6496d5d9d663d9e4def4230c1db0a47912d6b5f5e04215317caa14f3b3b6",
+            "gross_usd": 0,
+            "net_usd": -3,
+            "random_gross_usd": 0,
+            "random_net_usd": -3
+          }
+        }
+      ],
+      "coverage": {
+        "checked_utc": "2026-09-19T19:31:25.671389+00:00",
+        "missing_forecasts": [
+          {
+            "date": "2026-09-18",
+            "draw_type": "Day",
+            "status": "missing_pre_draw_forecast",
+            "studies": [
+              "baseline",
+              "weather",
+              "box"
+            ],
+            "backfilled": false
+          },
+          {
+            "date": "2026-09-18",
+            "draw_type": "Night",
+            "status": "missing_pre_draw_forecast",
+            "studies": [
+              "baseline",
+              "weather",
+              "box"
+            ],
+            "backfilled": false
+          },
+          {
+            "date": "2026-09-19",
+            "draw_type": "Day",
+            "status": "missing_pre_draw_forecast",
+            "studies": [
+              "baseline",
+              "weather",
+              "box"
+            ],
+            "backfilled": false
+          }
+        ],
+        "official_midday": "016",
+        "midday_archive_confirmed": false,
+        "note": "Missing forecasts are not losses. Cause of missed runs not established. September 10-16 weekly review already delivered."
+      }
+    },
+    "slate:2026-09-19": {
+      "delivered_utc": "2026-09-19T19:31:25.671389+00:00",
+      "rows": [
+        {
+          "date": "2026-09-19",
+          "draw_type": "Night",
+          "picks": [
+            "118",
+            "213",
+            "113"
+          ],
+          "random_picks": [
+            "010",
+            "521",
+            "132"
+          ],
+          "original_registered_utc": "2026-09-19T19:30:15.162949+00:00",
+          "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+          "result": null,
+          "straight_hit": null,
+          "random_straight_hit": null,
+          "box_hit": null,
+          "best_position_matches": null,
+          "best_digit_overlap": null,
+          "review_on": "2026-09-20"
+        }
+      ]
+    },
+    "weather-slate:2026-09-19": {
+      "delivered_utc": "2026-09-19T19:31:25.671389+00:00",
+      "rows": [
+        {
+          "date": "2026-09-19",
+          "draw_type": "Night",
+          "weather_picks": [
+            "836",
+            "846",
+            "831"
+          ],
+          "calendar_picks": [
+            "836",
+            "846",
+            "826"
+          ],
+          "baseline_picks": [
+            "118",
+            "213",
+            "113"
+          ],
+          "outdoor_forecast": {
+            "temperature_2m": 32.4,
+            "relative_humidity_2m": 44.0,
+            "surface_pressure": 1004.5
+          },
+          "actual": null,
+          "weather_hit": null,
+          "calendar_hit": null,
+          "baseline_hit": null,
+          "weather_log_loss": null,
+          "calendar_log_loss": null
+        }
+      ]
+    },
+    "box-slate:2026-09-19": {
+      "delivered_utc": "2026-09-19T19:31:25.671389+00:00",
+      "rows": [
+        {
+          "version": "BOX-V1",
+          "date": "2026-09-19",
+          "draw_type": "Night",
+          "registered_utc": "2026-09-19T19:30:41.567552+00:00",
+          "baseline_sha256": "2671570086d4ffe20cb2882f3945c211875f6e2bac21b7564fd29c013a9333fc",
+          "picks": [
+            {
+              "digits": "139",
+              "ways": 6,
+              "model_probability": 0.006226705047447011,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "123",
+              "ways": 6,
+              "model_probability": 0.006211750765051061,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "138",
+              "ways": 6,
+              "model_probability": 0.006202094184820195,
+              "gross_prize_usd": 80
+            }
+          ],
+          "random_picks": [
+            {
+              "digits": "236",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "156",
+              "ways": 6,
+              "gross_prize_usd": 80
+            },
+            {
+              "digits": "235",
+              "ways": 6,
+              "gross_prize_usd": 80
+            }
+          ],
+          "cost_usd": 3,
+          "fair_hit_probability": 0.018,
+          "result": null
+        }
+      ]
+    },
+    "midday:2026-09-19:official016-awaiting-archive": {
+      "delivered_utc": "2026-09-19T19:31:25.671389+00:00",
+      "official_number": "016",
+      "status": "No registered midday predictions; archive confirmation pending"
+    },
+    "daily-review:2026-09-20": {
+      "delivered_utc": "2026-09-20T13:05:00.000000+00:00",
+      "rows": [{"date":"2026-09-19","draw_type":"Night","picks":["118","213","113"],"result":"125","straight_hit":false,"box_hit":false,"best_position_matches":1,"best_digit_overlap":2}],
+      "note": "Sunday had no midday drawing."
+    },
+    "slate:2026-09-20": {"delivered_utc":"2026-09-20T13:05:00.000000+00:00","rows":[{"date":"2026-09-20","draw_type":"Night","picks":["215","118","115"]}]},
+    "weather-slate:2026-09-20": {"delivered_utc":"2026-09-20T13:05:00.000000+00:00","rows":[{"date":"2026-09-20","draw_type":"Night","picks":["836","846","838"]}]},
+    "box-slate:2026-09-20": {"delivered_utc":"2026-09-20T13:05:00.000000+00:00","rows":[{"date":"2026-09-20","draw_type":"Night","picks":["235","123","135"]}]},
+    "daily-review:2026-09-21": {"delivered_utc":"2026-09-21T13:03:00.000000+00:00","rows":[{"date":"2026-09-20","draw_type":"Night","picks":["215","118","115"],"result":"756","straight_hit":false,"box_hit":false,"best_position_matches":0,"best_digit_overlap":1}],"note":"Sunday had no midday drawing."},
+    "slate:2026-09-21": {"delivered_utc":"2026-09-21T13:03:00.000000+00:00","rows":[{"date":"2026-09-21","draw_type":"Day","picks":["552","452","551"]},{"date":"2026-09-21","draw_type":"Night","picks":["116","115","409"]}]},
+    "weather-slate:2026-09-21": {"delivered_utc":"2026-09-21T13:03:00.000000+00:00","rows":[{"date":"2026-09-21","draw_type":"Day","picks":["877","872","857"]},{"date":"2026-09-21","draw_type":"Night","picks":["698","696","638"]}]},
+    "box-slate:2026-09-21": {"delivered_utc":"2026-09-21T13:03:00.000000+00:00","rows":[{"date":"2026-09-21","draw_type":"Day","picks":["245","457","257"]},{"date":"2026-09-21","draw_type":"Night","picks":["136","135","139"]}]}
+    ,"midday:2026-09-21:official183-awaiting-archive": {"delivered_utc":"2026-09-21T20:51:10.000000+00:00","official_number":"183","status":"Awaiting archive confirmation; not scored","evening_picks":["116","115","409"]},
+    "daily-review:2026-09-22": {"details":"daily_update_2026-09-22"},
+    "slate:2026-09-22": {"details":"daily_update_2026-09-22"},
+    "weather-slate:2026-09-22": {"details":"daily_update_2026-09-22"},
+    "box-slate:2026-09-22": {"details":"daily_update_2026-09-22"},
+    "daily-review:2026-09-23": {"delivered_utc":"2026-09-23T13:03:50.3804425+00:00","rows":[{"date":"2026-09-22","draw_type":"Day","picks":["487","482","481"],"actual":"148","straight_hit":false,"any_order_hit":true,"best_digits":3,"best_positions":0},{"date":"2026-09-22","draw_type":"Night","picks":["116","435","405"],"actual":"130","straight_hit":false,"any_order_hit":false,"best_digits":1,"best_positions":1}],"weather_hits":0,"box_cost":6,"box_gross":0,"box_net":-6,"random_box_net":-6,"box_cumulative":{"draws":12,"cost":36,"gross":80,"net":44,"random_net":44}},
+    "slate:2026-09-23": {"delivered_utc":"2026-09-23T13:03:50.3804425+00:00","Day":["581","580","551"],"Night":["116","215","210"]},
+    "weather-slate:2026-09-23": {"delivered_utc":"2026-09-23T13:03:50.3804425+00:00","Day":["073","077","071"],"Night":["619","519","639"]},
+    "box-slate:2026-09-23": {"delivered_utc":"2026-09-23T13:03:50.3804425+00:00","Day":["145","245","045"],"Night":["139","189","589"],"type":"all 6-way"},
+    "midday:2026-09-23:official456-awaiting-archive": {"delivered_utc":"2026-09-23T19:02:01.9681630+00:00","official_number":"456","status":"Awaiting archive confirmation; not scored","evening_straight":["116","215","210"],"evening_weather":["619","519","639"],"evening_box":["139","189","589"]},
+    "midday:2026-09-22:official148-awaiting-archive": {"delivered_utc":"2026-09-22T19:02:03.9695389+00:00","official_number":"148","status":"Awaiting archive confirmation; not scored","original_day_picks":["487","482","481"],"provisional_any_order_match":"481","evening_straight":["116","435","405"],"evening_weather":["696","636","698"],"evening_box":["139","456","129"]},
+    "daily-review:2026-09-24": {"delivered_utc":"2026-09-24T13:03:40.8798916+00:00","Day_actual":"456","Night_actual":"783","straight_hits":0,"weather_hits":0,"box_hits":0},
+    "slate:2026-09-24": {"delivered_utc":"2026-09-24T13:03:40.8798916+00:00","Day":["052","552","051"],"Night":["116","216","816"]},
+    "weather-slate:2026-09-24": {"delivered_utc":"2026-09-24T13:03:40.8798916+00:00","Day":["073","003","071"],"Night":["819","519","619"]},
+    "box-slate:2026-09-24": {"delivered_utc":"2026-09-24T13:03:40.8798916+00:00","Day":["125","145","245"],"Night":["139","169","089"],"type":"all 6-way"},
+    "weekly:2026-09-17_to_2026-09-23": {"delivered_utc":"2026-09-24T13:03:40.8798916+00:00","report_file":"2026-09-17_to_2026-09-23_20260924T130247889726Z.json","complete_review":"2026-09-17_to_2026-09-23_complete_review.md","missing_forecasts":3,"straight_draws":10,"straight_hits":0,"straight_net":-30,"random_straight_net":-30,"weather_draws":10,"weather_hits":0,"calendar_hits":0,"box_draws":10,"box_model_net":50,"box_random_net":130,"equipment_verified_mappings":0},
+    "midday:2026-09-24:official910-awaiting-archive": {"delivered_utc":"2026-09-24T19:01:38.9807219+00:00","official_number":"910","status":"Awaiting archive confirmation; not scored","evening_straight":["116","216","816"],"evening_weather":["819","519","619"],"evening_box":["139","169","089"]},
+    "daily-review:2026-09-25": {"delivered_utc":"2026-09-25T13:01:20.7555911+00:00","Day":{"actual":"910","picks":["052","552","051"],"straight_hit":false,"any_order_hit":false,"best_digits":2,"best_positions":0},"Night":{"actual":"168","picks":["116","216","816"],"straight_hit":false,"any_order_hit":true,"best_digits":3,"best_positions":1},"weather_hits":0,"registered_box_hits":0,"box_cumulative":{"draws":16,"model_net":32,"random_net":112}},
+    "slate:2026-09-25": {"delivered_utc":"2026-09-25T13:01:20.7555911+00:00","Day":["051","050","551"],"Night":["116","115","117"]},
+    "weather-slate:2026-09-25": {"delivered_utc":"2026-09-25T13:01:20.7555911+00:00","Day":["896","894","196"],"Night":["096","036","896"]},
+    "box-slate:2026-09-25": {"delivered_utc":"2026-09-25T13:01:20.7555911+00:00","Day":["015","145","014"],"Night":["136","259","138"],"type":"all 6-way"},
+    "midday:2026-09-25:official498-awaiting-archive": {"delivered_utc":"2026-09-25T19:02:32+00:00","official_number":"498","status":"Awaiting archive confirmation; not scored","evening_straight":["116","115","117"],"evening_weather":["096","036","896"],"evening_box":["136","259","138"]},
+    "daily-review:2026-09-26": {"delivered_utc":"2026-09-26T14:22:38.8790249+00:00","Day":{"actual":"498","picks":["051","050","551"],"straight_hit":false,"any_order_hit":false,"best_digits":0,"best_positions":0},"Night":{"actual":"196","picks":["116","115","117"],"straight_hit":false,"any_order_hit":false,"best_digits":2,"best_positions":2},"weather_hits":0,"registered_box_hits":0,"box_cumulative":{"draws":18,"model_net":26,"random_net":106}},
+    "slate:2026-09-26": {"delivered_utc":"2026-09-26T14:22:38.8790249+00:00","Day":["051","451","551"],"Night":["116","136","216"]},
+    "weather-slate:2026-09-26": {"delivered_utc":"2026-09-26T14:22:38.8790249+00:00","Day":["896","894","846"],"Night":["036","096","086"]},
+    "box-slate:2026-09-26": {"delivered_utc":"2026-09-26T14:22:38.8790249+00:00","Day":["145","015","014"],"Night":["139","135","123"],"type":"all 6-way"},
+    "challenger-v2-slate:2026-09-26": {"delivered_utc":"2026-09-26T15:41:20.744398+00:00","version":"CHALLENGER-V2","Day":{"straight":["752","844","452"],"box":["148","478","145"]},"Night":{"straight":["412","312","512"],"box":["123","012","139"]},"box_type":"all 6-way","status":"LOCKED_PROSPECTIVE"}
+  },
+  "daily_update_2026-09-22": {
+    "delivered_utc": "2026-09-22T13:03:04.3583262+00:00",
+    "keys": ["daily-review:2026-09-22", "slate:2026-09-22", "weather-slate:2026-09-22", "box-slate:2026-09-22"],
+    "yesterday": {"Day": {"actual":"183","original_picks":["552","452","551"],"straight_hit":false,"any_order_hit":false,"best_digits":1,"best_positions":0}, "Night":{"actual":"391","original_picks":["116","115","409"],"straight_hit":false,"any_order_hit":false,"best_digits":1,"best_positions":0}},
+    "weather_yesterday": {"Day_hit":false,"Night_hit":false},
+    "box_yesterday": {"Day_net":-3,"Night_winning_box":"139","Night_gross":80,"Night_net":77},
+    "box_totals": {"draws":10,"cost":30,"gross":80,"net":50,"random_net":50},
+    "today": {"Day":{"straight":["487","482","481"],"weather":["877","872","977"],"box":["457","245","045"]},"Night":{"straight":["116","435","405"],"weather":["696","636","698"],"box":["139","456","129"]}},
+    "box_type":"All 6-way"
+  },
+  "last_check": {
+    "checked_utc": "2026-09-26T14:22:38.8790249+00:00",
+    "new_verified_results": 2,
+    "official_midday_unconfirmed_by_archive": null,
+    "pending": 2,
+    "missing_forecasts": [
+      {
+        "date": "2026-09-18",
+        "draw_type": "Day",
+        "status": "missing_pre_draw_forecast",
+        "studies": [
+          "baseline",
+          "weather",
+          "box"
+        ],
+        "backfilled": false
+      },
+      {
+        "date": "2026-09-18",
+        "draw_type": "Night",
+        "status": "missing_pre_draw_forecast",
+        "studies": [
+          "baseline",
+          "weather",
+          "box"
+        ],
+        "backfilled": false
+      },
+      {
+        "date": "2026-09-19",
+        "draw_type": "Day",
+        "status": "missing_pre_draw_forecast",
+        "studies": [
+          "baseline",
+          "weather",
+          "box"
+        ],
+        "backfilled": false
+      }
+    ],
+    "notification_required": true
+  }
+}

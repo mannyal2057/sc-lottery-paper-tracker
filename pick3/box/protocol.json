@@ -1,0 +1,14 @@
+{
+  "version": "BOX-V1",
+  "created_utc": "2026-09-15T14:17:50.302347+00:00",
+  "selection": "Sum frozen baseline probabilities over each unordered digit multiset. Exclude triples (not a 3-way or 6-way Box). Rank classes by total probability, canonical digits as tie break. Choose three distinct classes; never count permutations as separate boxes.",
+  "cost_per_draw_usd": 3,
+  "cost_per_box_usd": 1,
+  "gross_prize_3way_usd": 160,
+  "gross_prize_6way_usd": 80,
+  "rules_source": "https://www.sceducationlottery.com/documents/games/onlinegames/GameRules_Pick3.pdf",
+  "control": "Three random distinct box classes with matching 3-way/6-way composition. Equal coverage and cost.",
+  "registration": "Only before original cutoff and after this protocol exists. Never backfill or overwrite. Paper only, no tickets or Fireball.",
+  "evaluation": "Score only baseline-verified results. Report exact box hits, coverage-specific chance, gross winnings and net after cost. More coverage is not a predictive advantage; compare with matched random boxes. Weekly results descriptive. Original study endpoint remains in force; report shorter Box sample at that point.",
+  "code_sha256": "5c0472e50923d3a5a48c509d12945a0c9a57162c77ccd8a6a5c7c35933e6dad3"
+}

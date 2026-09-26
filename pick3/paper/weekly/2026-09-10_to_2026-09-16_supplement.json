@@ -1,0 +1,14 @@
+{
+  "weather_draws": 4,
+  "weather_hits": 0,
+  "calendar_hits": 0,
+  "baseline_same_draws_hits": 0,
+  "weather_mean_log_loss": 6.945991226364801,
+  "calendar_mean_log_loss": 6.936287882550266,
+  "box_draws": 4,
+  "box_cost": 12,
+  "box_gross": 0,
+  "box_net": -12,
+  "random_box_net": -12,
+  "equipment_verified_mappings": 0
+}

@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-09-19T19:31:25.671389+00:00",
+  "missing_forecasts": [
+    {
+      "date": "2026-09-18",
+      "draw_type": "Day",
+      "status": "missing_pre_draw_forecast",
+      "studies": [
+        "baseline",
+        "weather",
+        "box"
+      ],
+      "backfilled": false
+    },
+    {
+      "date": "2026-09-18",
+      "draw_type": "Night",
+      "status": "missing_pre_draw_forecast",
+      "studies": [
+        "baseline",
+        "weather",
+        "box"
+      ],
+      "backfilled": false
+    },
+    {
+      "date": "2026-09-19",
+      "draw_type": "Day",
+      "status": "missing_pre_draw_forecast",
+      "studies": [
+        "baseline",
+        "weather",
+        "box"
+      ],
+      "backfilled": false
+    }
+  ],
+  "official_midday": "016",
+  "midday_archive_confirmed": false,
+  "note": "Missing forecasts are not losses. Cause of missed runs not established. September 10-16 weekly review already delivered."
+}

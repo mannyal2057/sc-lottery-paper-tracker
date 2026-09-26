@@ -1,0 +1,132 @@
+{
+  "version": "SC-PICK4-CHALLENGER-V1",
+  "status": "LOCKED_PROSPECTIVE",
+  "created_utc": "2026-09-26T15:55:27.102598+00:00",
+  "code_sha256": "0195d3375f1c960a6d40b89e46a42368f669335a8fb647cda1f68415fac948c2",
+  "initial_history_sha256": "22b9bbaae4a8ce83f5a2be5178d0341f10c524fd891a7409655e5803020ff1b5",
+  "initial_source_snapshots": {
+    "2003": {
+      "file": "sources\\history\\archive_2003.html",
+      "sha256": "ae0705d9e535e79ac31ba7c6ddfdbfa281be8829ba3db88dab30172cb2ed5e3f"
+    },
+    "2004": {
+      "file": "sources\\history\\archive_2004.html",
+      "sha256": "54a6fbe9c64203bacfd247f52aea99959ced39033ac4cfc4d67f33f8d7da7552"
+    },
+    "2005": {
+      "file": "sources\\history\\archive_2005.html",
+      "sha256": "d6f5ec92c8037c656a092fea2202f6a090bafb89641734de14b3ef14a0001418"
+    },
+    "2006": {
+      "file": "sources\\history\\archive_2006.html",
+      "sha256": "edbe2eccbef7b2e769c7a1cbbef7cf5ef1fc62f91d311e498348bc22750b2930"
+    },
+    "2007": {
+      "file": "sources\\history\\archive_2007.html",
+      "sha256": "c8be6a9520103e10cbf35bc15aefe82a6ab647ab88f23c6d8cf9607c87155e2a"
+    },
+    "2008": {
+      "file": "sources\\history\\archive_2008.html",
+      "sha256": "1c61303450b30c9310add15130ce77176709c84dd8df40cedbd52004cfb33f88"
+    },
+    "2009": {
+      "file": "sources\\history\\archive_2009.html",
+      "sha256": "9452a086f8c9ab1c024940f6a0fdffdde998d7b2df8823794acebc2bd7ff9247"
+    },
+    "2010": {
+      "file": "sources\\history\\archive_2010.html",
+      "sha256": "63af1953641fa81e7fe30f37d9d4693c08b473b501d4620bc564e1b6e8a87f5f"
+    },
+    "2011": {
+      "file": "sources\\history\\archive_2011.html",
+      "sha256": "c1d8f83bcfefafdf8ed1f2b2f41d5bd48f630e09ff5d73c6b93352b9b48ce171"
+    },
+    "2012": {
+      "file": "sources\\history\\archive_2012.html",
+      "sha256": "3ed8e9ae55f4b053dfa4ca91f2d75981da9362cb0022b72e1b865fe39f19dbcf"
+    },
+    "2013": {
+      "file": "sources\\history\\archive_2013.html",
+      "sha256": "8f4d10c091aeef70386b80535b9840edf8549612cfad72f1db97ad999ce4c9ba"
+    },
+    "2014": {
+      "file": "sources\\history\\archive_2014.html",
+      "sha256": "bc882852e07c91337d18f036595fe1cdd1bb76d01c1c454decc7174664bdae83"
+    },
+    "2015": {
+      "file": "sources\\history\\archive_2015.html",
+      "sha256": "51e711d90c573171c3995888c513075c99c9ca5c556455eb72fcc0fe7b176f2a"
+    },
+    "2016": {
+      "file": "sources\\history\\archive_2016.html",
+      "sha256": "062bee64d2d5d9f004368857cc13785147edadc004ee6dab14a2628804fb906c"
+    },
+    "2017": {
+      "file": "sources\\history\\archive_2017.html",
+      "sha256": "e9591d63c4dbd70e2035c62fd88e3088ded685ea7eaa0f0655131485e151d820"
+    },
+    "2018": {
+      "file": "sources\\history\\archive_2018.html",
+      "sha256": "ec11c0c3c3c085a48792e3984ef63980179701455ea59a6f5b73415c09ba292a"
+    },
+    "2019": {
+      "file": "sources\\history\\archive_2019.html",
+      "sha256": "0e8dd0a03db186922bb3a29fecdefafddb5d482fbc1a73202f6bd6fe4c08f58f"
+    },
+    "2020": {
+      "file": "sources\\history\\archive_2020.html",
+      "sha256": "e84099c23d6ec2a1a123d94e58b52c2f28d91d72e18fd4fbaad686d6857017df"
+    },
+    "2021": {
+      "file": "sources\\history\\archive_2021.html",
+      "sha256": "99568f17d2d235beae69f85195f269e7fba550f2bf644459f6ef5b202f58f69f"
+    },
+    "2022": {
+      "file": "sources\\history\\archive_2022.html",
+      "sha256": "fc09b5999b4a72df5b94b15d6d3a4ff1d6ab5f16beae5941fb61d2509c257de8"
+    },
+    "2023": {
+      "file": "sources\\history\\archive_2023.html",
+      "sha256": "61a72fb9a63e8346c73d227b4540e01377a358d9864e3951dd4f3e79fd4e14b1"
+    },
+    "2024": {
+      "file": "sources\\history\\archive_2024.html",
+      "sha256": "4cb7cb95abfbda60e4bfa88634e422bfaaa24ceba414c7890f4648e04bb28f22"
+    },
+    "2025": {
+      "file": "sources\\history\\archive_2025.html",
+      "sha256": "32c3d7b0e219fa77d8d2ed8b1aab2cee4d50e87f8a158cae17c864f193cb87ba"
+    },
+    "2026": {
+      "file": "sources\\history\\archive_2026_65bec794f19215f5d202.html",
+      "sha256": "0f2e76ddd954089959d02ab45f874b0157e9621625950b83310f22566a2b752d"
+    }
+  },
+  "model": {
+    "uniform_weight": 0.85,
+    "signal_weight": 0.15,
+    "component_weights": {
+      "position": 0.35,
+      "pairs": 0.2,
+      "transition": 0.15,
+      "repeat_gap": 0.1,
+      "change_point": 0.2
+    },
+    "features": "Same-stream position frequencies, all six position pairs, previous-draw transitions, repeat-gap hazards and bounded recent change."
+  },
+  "registration": "Before 12:45 Day / 18:45 Night America/New_York; verified preceding history only; exclusive-create; never backfill, overwrite or retune.",
+  "selections": "Three straights and three non-triple Box classes. Seeded random controls match straight count and Box permutation composition exactly.",
+  "paper_wagers": {
+    "straight": "$1 each; $3 per draw; $5,000 gross exact prize",
+    "box": "$1 each; $3 per draw; gross prizes 4-way $1,200, 6-way $800, 12-way $400, 24-way $200",
+    "fireball": "excluded"
+  },
+  "sources": {
+    "official": "https://www.sceducationlottery.com/Games/Pick4",
+    "archive": "https://sc.pick-4.com/winning-numbers/{year}",
+    "rules": "https://sceducationlottery.com/documents/games/onlinegames/GameRules_Pick4.pdf"
+  },
+  "evaluation": "Score only when official and archive agree. Report straight/Box hits, matched controls, net and log loss versus uniform. First descriptive Box checkpoint at 100 scored draws; final at 200 scored draws per stream.",
+  "limitations": "Paper experiment only. Historical patterns may have no predictive value; no tickets purchased and no advantage claimed from interim results.",
+  "seed": 20260926
+}

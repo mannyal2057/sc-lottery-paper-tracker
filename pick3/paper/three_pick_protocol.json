@@ -1,0 +1,5 @@
+{
+  "created_utc": "2026-09-10T12:40:31.494603+00:00",
+  "rule": "First three ordered model_top10 and first three random_top10 in each pre-draw registered forecast. Exact straight, any-order box and matching digits are reported. Do not change historical selections. Review both draws the following morning; prospective adjustments need a new version.",
+  "version": "TOP3-V1"
+}
