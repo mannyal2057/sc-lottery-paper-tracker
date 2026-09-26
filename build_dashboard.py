@@ -13,6 +13,32 @@ def load(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
 
 
+def cloud_notice():
+    path = ROOT / "cloud_status.json"
+    if not path.exists():
+        return ""
+    status = json.loads(path.read_text(encoding="utf-8"))
+    unavailable = []
+    if not status.get("pick3_source", {}).get("ok", True):
+        unavailable.append("Pick 3")
+    if not status.get("pick4_source", {}).get("ok", True):
+        unavailable.append("Pick 4")
+    failed_supporting = [
+        name.removesuffix(".py")
+        for name, state in status.get("pick3_supporting", {}).items()
+        if not state.get("ok", True)
+    ]
+    if not unavailable and not failed_supporting:
+        return ""
+    parts = []
+    if unavailable:
+        parts.append(f"The {' and '.join(unavailable)} public result source was temporarily unavailable")
+    if failed_supporting:
+        parts.append("these study updates need attention: " + ", ".join(failed_supporting))
+    message = ". ".join(parts) + ". Prior verified records remain intact; unresolved outcomes stay pending."
+    return f'<div class="notice warning"><strong>Source status:</strong> {html.escape(message)}</div>'
+
+
 def newest_pending(rows):
     pending = [row for row in rows if not row.get("result")]
     if not pending:
@@ -80,13 +106,14 @@ def main():
 :root{{--ink:#102638;--muted:#617283;--paper:#f5f8fa;--card:#fff;--line:#d9e1e7;--navy:#0d2538;--gold:#f2b84b;--blue:#2c6e9f;--green:#19704a}}
 *{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}}
 header{{background:var(--navy);color:white;padding:1rem 0;border-bottom:5px solid var(--gold)}}.bar,main,footer{{width:min(1180px,calc(100% - 2rem));margin:auto}}.bar{{display:flex;align-items:center;justify-content:space-between;gap:1rem}}.brand{{font-weight:800;font-size:1.15rem;letter-spacing:.01em}}.stamp{{font-size:.83rem;color:#c7d3dc}}
-main{{padding:1.5rem 0 3rem}}.notice{{background:#eaf3f8;border:1px solid #c4dce9;border-left:5px solid var(--blue);padding:.8rem 1rem;margin-bottom:1.5rem;border-radius:8px}}h1{{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;margin:.2rem 0 .5rem}}h2{{font-size:1.35rem;margin:2rem 0 .75rem}}.intro{{color:var(--muted);max-width:770px;margin:0 0 1.3rem}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.draw-card{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.15rem;box-shadow:0 8px 24px rgba(23,48,68,.06)}}.eyebrow,.label{{text-transform:uppercase;letter-spacing:.09em;font-size:.75rem;font-weight:750;color:var(--blue)}}h3{{font-size:1.05rem;margin:.2rem 0 1rem}}.label{{margin-top:.8rem;color:var(--muted)}}.numbers{{font:800 clamp(1.25rem,3vw,1.8rem)/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.03em}}.numbers small{{font:600 .7rem/1 system-ui;color:var(--muted)}}.pending{{display:inline-block;margin-top:1rem;padding:.28rem .55rem;background:#fff5d9;color:#72510d;border-radius:999px;font-size:.78rem;font-weight:700}}
+main{{padding:1.5rem 0 3rem}}.notice{{background:#eaf3f8;border:1px solid #c4dce9;border-left:5px solid var(--blue);padding:.8rem 1rem;margin-bottom:1.5rem;border-radius:8px}}.notice.warning{{background:#fff4dd;border-color:#efd49b;border-left-color:#b26b00}}h1{{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;margin:.2rem 0 .5rem}}h2{{font-size:1.35rem;margin:2rem 0 .75rem}}.intro{{color:var(--muted);max-width:770px;margin:0 0 1.3rem}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.draw-card{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.15rem;box-shadow:0 8px 24px rgba(23,48,68,.06)}}.eyebrow,.label{{text-transform:uppercase;letter-spacing:.09em;font-size:.75rem;font-weight:750;color:var(--blue)}}h3{{font-size:1.05rem;margin:.2rem 0 1rem}}.label{{margin-top:.8rem;color:var(--muted)}}.numbers{{font:800 clamp(1.25rem,3vw,1.8rem)/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.03em}}.numbers small{{font:600 .7rem/1 system-ui;color:var(--muted)}}.pending{{display:inline-block;margin-top:1rem;padding:.28rem .55rem;background:#fff5d9;color:#72510d;border-radius:999px;font-size:.78rem;font-weight:700}}
 .metrics{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem}}.metric{{background:white;border:1px solid var(--line);border-radius:10px;padding:.85rem}}.metric span,.metric small{{display:block;color:var(--muted);font-size:.78rem}}.metric strong{{display:block;font-size:1.45rem;margin:.12rem 0}}.table-wrap{{overflow:auto;background:white;border:1px solid var(--line);border-radius:12px}}table{{width:100%;border-collapse:collapse;min-width:680px}}th,td{{padding:.72rem .8rem;border-bottom:1px solid var(--line);text-align:left;font-size:.88rem}}th{{background:#edf3f7;color:#435767}}.mono{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}.actual{{font-weight:800}}.empty{{background:white;border:1px dashed var(--line);border-radius:10px;padding:1rem;color:var(--muted)}}footer{{padding:1.2rem 0 2.5rem;color:var(--muted);font-size:.82rem}}
 @media(max-width:760px){{.grid,.metrics{{grid-template-columns:1fr}}.bar{{align-items:flex-start;flex-direction:column}}main{{padding-top:1rem}}}}
 </style></head><body>
 <header><div class="bar"><div class="brand">SC Number Lab · Paper Tracker</div><div class="stamp">Updated {built}</div></div></header>
 <main><h1>Pick 3 & Pick 4 registered forecasts</h1><p class="intro">Predictions are recorded before each drawing and scored only after public sources agree. These are experiments, not winning guarantees or ticket recommendations.</p>
 <div class="notice"><strong>Laptop-free updates:</strong> the public cloud workflow checks results and refreshes this page at 9:05 a.m. and 3:05 p.m. Eastern.</div>
+{cloud_notice()}
 <h2>Pick 3 · CHALLENGER-V2</h2><div class="grid">{cards(newest_pending(pick3['rows']), 'Pick 3')}</div>
 <h2>Pick 3 scoreboard</h2><div class="metrics">{metric('Challenger scored',p3_totals['scored_draws'],'of first 100 checkpoint')}{metric('Challenger straight hits',p3_totals['straight_hits'])}{metric('Original Box net',f"${p3_box_net:+.0f}",f"Random control ${p3_random_net:+.0f}")}{metric('Original Box draws',len(p3_scored),'coverage matched')}</div>
 <h2>Recent Pick 3 Challenger results</h2>{recent_table(pick3['rows'],3)}
