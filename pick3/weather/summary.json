@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-26T21:56:31.575818+00:00",
+  "updated_utc": "2026-09-27T03:01:21.439172+00:00",
   "issues": [],
   "rows": [
     {
@@ -565,12 +565,12 @@
         "relative_humidity_2m": 35.0,
         "surface_pressure": 1006.1
       },
-      "actual": null,
-      "weather_hit": null,
-      "calendar_hit": null,
-      "baseline_hit": null,
-      "weather_log_loss": null,
-      "calendar_log_loss": null
+      "actual": "070",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.944135814984643,
+      "calendar_log_loss": 6.805990722427415
     },
     {
       "date": "2026-09-26",
@@ -595,12 +595,12 @@
         "relative_humidity_2m": 18.0,
         "surface_pressure": 1003.1
       },
-      "actual": null,
-      "weather_hit": null,
-      "calendar_hit": null,
-      "baseline_hit": null,
-      "weather_log_loss": null,
-      "calendar_log_loss": null
+      "actual": "170",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.170000641190912,
+      "calendar_log_loss": 7.10550611342336
     }
   ]
 }

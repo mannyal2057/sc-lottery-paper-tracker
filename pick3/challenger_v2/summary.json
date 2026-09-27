@@ -1,21 +1,21 @@
 {
   "version": "CHALLENGER-V2",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-09-26T21:56:33.015981+00:00",
+  "updated_utc": "2026-09-27T03:01:22.695606+00:00",
   "protocol_sha256": "3568be14119b5c5ca79f1bdfc4d0465e625e0b796c266e5e1784ffc40477b2e6",
   "totals": {
-    "scored_draws": 0,
+    "scored_draws": 2,
     "straight_hits": 0,
     "random_straight_hits": 0,
     "box_hits": 0,
     "random_box_hits": 0,
-    "straight_net_usd": 0,
-    "random_straight_net_usd": 0,
-    "box_net_usd": 0,
-    "random_box_net_usd": 0,
-    "mean_model_log_loss": null,
-    "mean_uniform_log_loss": null,
-    "mean_baseline_log_loss": null
+    "straight_net_usd": -6,
+    "random_straight_net_usd": -6,
+    "box_net_usd": -6,
+    "random_box_net_usd": -6,
+    "mean_model_log_loss": 6.914793444874357,
+    "mean_uniform_log_loss": 6.907755278982137,
+    "mean_baseline_log_loss": 6.9067318159814715
   },
   "checkpoint": {
     "first_box_checkpoint_draws": 100,
@@ -51,7 +51,30 @@
           "gross_prize_usd": 80
         }
       ],
-      "result": null
+      "result": {
+        "date": "2026-09-26",
+        "draw_type": "Day",
+        "actual": "070",
+        "scored_utc": "2026-09-27T03:01:22.692112+00:00",
+        "forecast_sha256": "ba9bf1cab9840f4d806d0fad21d874d023656082b2f5133f828e40a15b141635",
+        "verified_baseline_result_sha256": "f8a971b9c9fd946c648b17e29a85fe87ec5f946ba2fc2c44df695ebd6e1ecc11",
+        "straight_hit": false,
+        "random_straight_hit": false,
+        "box_hit": false,
+        "random_box_hit": false,
+        "model_log_loss": 6.899101164743311,
+        "uniform_log_loss": 6.907755278982137,
+        "baseline_log_loss": 6.847583886233865,
+        "straight_gross_usd": 0,
+        "straight_net_usd": -3,
+        "random_straight_net_usd": -3,
+        "box_gross_usd": 0,
+        "box_net_usd": -3,
+        "random_box_gross_usd": 0,
+        "random_box_net_usd": -3,
+        "best_position_matches": 0,
+        "best_digit_overlap": 1
+      }
     },
     {
       "date": "2026-09-26",
@@ -82,7 +105,30 @@
           "gross_prize_usd": 80
         }
       ],
-      "result": null
+      "result": {
+        "date": "2026-09-26",
+        "draw_type": "Night",
+        "actual": "170",
+        "scored_utc": "2026-09-27T03:01:22.693821+00:00",
+        "forecast_sha256": "ac1abc87374057dcf035134282eb557babb02255b00c5a87390cbefa38c48d52",
+        "verified_baseline_result_sha256": "7c61dcdfb854569f53928b1fd272e0d328b04fc89599a35ef5d3d0d8350da438",
+        "straight_hit": false,
+        "random_straight_hit": false,
+        "box_hit": false,
+        "random_box_hit": false,
+        "model_log_loss": 6.930485725005402,
+        "uniform_log_loss": 6.907755278982137,
+        "baseline_log_loss": 6.965879745729077,
+        "straight_gross_usd": 0,
+        "straight_net_usd": -3,
+        "random_straight_net_usd": -3,
+        "box_gross_usd": 0,
+        "box_net_usd": -3,
+        "random_box_gross_usd": 0,
+        "random_box_net_usd": -3,
+        "best_position_matches": 0,
+        "best_digit_overlap": 1
+      }
     }
   ]
 }

@@ -1035,7 +1035,15 @@
       ],
       "cost_usd": 3,
       "fair_hit_probability": 0.018,
-      "result": null
+      "result": {
+        "actual": "070",
+        "forecast_sha256": "7b370ed85adb035f3c507bbd5a3f398217b6d1ec10e323ac051b12b3e9020dff",
+        "verified_result_sha256": "f8a971b9c9fd946c648b17e29a85fe87ec5f946ba2fc2c44df695ebd6e1ecc11",
+        "gross_usd": 0,
+        "net_usd": -3,
+        "random_gross_usd": 0,
+        "random_net_usd": -3
+      }
     },
     {
       "version": "BOX-V1",
@@ -1082,7 +1090,15 @@
       ],
       "cost_usd": 3,
       "fair_hit_probability": 0.018,
-      "result": null
+      "result": {
+        "actual": "170",
+        "forecast_sha256": "d5f98b1a4ae994e3aa045e67b309d9950b2318405b2c5094253225774ff25e3e",
+        "verified_result_sha256": "7c61dcdfb854569f53928b1fd272e0d328b04fc89599a35ef5d3d0d8350da438",
+        "gross_usd": 0,
+        "net_usd": -3,
+        "random_gross_usd": 0,
+        "random_net_usd": -3
+      }
     }
   ],
   "issues": []
