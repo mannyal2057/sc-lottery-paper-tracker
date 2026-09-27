@@ -87,8 +87,43 @@ def recent_table(rows, digits):
     return f"""<div class="table-wrap"><table><thead><tr><th>Date</th><th>Draw</th><th>Three picks</th><th>Actual</th><th>Straight</th><th>Box</th></tr></thead><tbody>{''.join(body)}</tbody></table></div>"""
 
 
+def pick3_result_status(source_status):
+    awaiting = source_status.get("awaiting_archive_confirmation", [])
+    if not awaiting:
+        return ""
+    blocks = []
+    for row in awaiting:
+        blocks.append(
+            '<article class="result-card pending-result">'
+            f'<div><span class="eyebrow">{html.escape(row["date"])} · {html.escape(row["draw_type"])}</span>'
+            f'<strong class="reported-number">{html.escape(row["official_number"])}</strong></div>'
+            '<div><strong>Reported by the official source</strong><small>Awaiting independent archive confirmation · not scored yet</small></div>'
+            '</article>'
+        )
+    return '<h2>Latest Pick 3 result status</h2><div class="result-list">' + "".join(blocks) + "</div>"
+
+
+def pick3_history(rows):
+    completed = [row for row in rows if row.get("result")][-14:][::-1]
+    body = []
+    for row in completed:
+        body.append(
+            "<tr>"
+            f"<td>{html.escape(row['date'])}</td><td>{html.escape(row['draw_type'])}</td>"
+            f"<td class='mono'>{html.escape(', '.join(row['picks']))}</td>"
+            f"<td class='mono actual'>{html.escape(row['result'])}</td>"
+            f"<td>{'Yes' if row['straight_hit'] else 'No'}</td>"
+            f"<td>{'Yes' if row['box_hit'] else 'No'}</td>"
+            f"<td>{row['best_position_matches']}/3</td>"
+            "</tr>"
+        )
+    return f"""<div class="table-wrap"><table><thead><tr><th>Date</th><th>Draw</th><th>Original three picks</th><th>Actual</th><th>Straight</th><th>Any order</th><th>Best positions</th></tr></thead><tbody>{''.join(body)}</tbody></table></div>"""
+
+
 def main():
     pick3 = load("pick3/challenger_v2/summary.json")
+    pick3_review = load("pick3/paper/three_pick_review.json")
+    pick3_source = load("pick3/paper/source_status.json")
     pick4 = load("pick4/study/summary.json")
     p3_box = load("pick3/box/summary.json")
     p3_scored = [row for row in p3_box["rows"] if row.get("result")]
@@ -106,17 +141,18 @@ def main():
 :root{{--ink:#102638;--muted:#617283;--paper:#f5f8fa;--card:#fff;--line:#d9e1e7;--navy:#0d2538;--gold:#f2b84b;--blue:#2c6e9f;--green:#19704a}}
 *{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}}
 header{{background:var(--navy);color:white;padding:1rem 0;border-bottom:5px solid var(--gold)}}.bar,main,footer{{width:min(1180px,calc(100% - 2rem));margin:auto}}.bar{{display:flex;align-items:center;justify-content:space-between;gap:1rem}}.brand{{font-weight:800;font-size:1.15rem;letter-spacing:.01em}}.stamp{{font-size:.83rem;color:#c7d3dc}}
-main{{padding:1.5rem 0 3rem}}.notice{{background:#eaf3f8;border:1px solid #c4dce9;border-left:5px solid var(--blue);padding:.8rem 1rem;margin-bottom:1.5rem;border-radius:8px}}.notice.warning{{background:#fff4dd;border-color:#efd49b;border-left-color:#b26b00}}h1{{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;margin:.2rem 0 .5rem}}h2{{font-size:1.35rem;margin:2rem 0 .75rem}}.intro{{color:var(--muted);max-width:770px;margin:0 0 1.3rem}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.draw-card{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.15rem;box-shadow:0 8px 24px rgba(23,48,68,.06)}}.eyebrow,.label{{text-transform:uppercase;letter-spacing:.09em;font-size:.75rem;font-weight:750;color:var(--blue)}}h3{{font-size:1.05rem;margin:.2rem 0 1rem}}.label{{margin-top:.8rem;color:var(--muted)}}.numbers{{font:800 clamp(1.25rem,3vw,1.8rem)/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.03em}}.numbers small{{font:600 .7rem/1 system-ui;color:var(--muted)}}.pending{{display:inline-block;margin-top:1rem;padding:.28rem .55rem;background:#fff5d9;color:#72510d;border-radius:999px;font-size:.78rem;font-weight:700}}
+main{{padding:1.5rem 0 3rem}}.notice{{background:#eaf3f8;border:1px solid #c4dce9;border-left:5px solid var(--blue);padding:.8rem 1rem;margin-bottom:1.5rem;border-radius:8px}}.notice.warning{{background:#fff4dd;border-color:#efd49b;border-left-color:#b26b00}}h1{{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;margin:.2rem 0 .5rem}}h2{{font-size:1.35rem;margin:2rem 0 .75rem}}.intro{{color:var(--muted);max-width:770px;margin:0 0 1.3rem}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.draw-card{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.15rem;box-shadow:0 8px 24px rgba(23,48,68,.06)}}.eyebrow,.label{{text-transform:uppercase;letter-spacing:.09em;font-size:.75rem;font-weight:750;color:var(--blue)}}h3{{font-size:1.05rem;margin:.2rem 0 1rem}}.label{{margin-top:.8rem;color:var(--muted)}}.numbers{{font:800 clamp(1.25rem,3vw,1.8rem)/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.03em}}.numbers small{{font:600 .7rem/1 system-ui;color:var(--muted)}}.pending{{display:inline-block;margin-top:1rem;padding:.28rem .55rem;background:#fff5d9;color:#72510d;border-radius:999px;font-size:.78rem;font-weight:700}}.result-list{{display:grid;gap:.7rem}}.result-card{{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;background:white;border:1px solid var(--line);border-radius:12px;padding:1rem 1.15rem}}.result-card.pending-result{{border-left:5px solid var(--gold)}}.reported-number{{display:block;font:800 2rem/1.15 ui-monospace,SFMono-Regular,Consolas,monospace}}.result-card small{{display:block;color:var(--muted);margin-top:.15rem}}
 .metrics{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem}}.metric{{background:white;border:1px solid var(--line);border-radius:10px;padding:.85rem}}.metric span,.metric small{{display:block;color:var(--muted);font-size:.78rem}}.metric strong{{display:block;font-size:1.45rem;margin:.12rem 0}}.table-wrap{{overflow:auto;background:white;border:1px solid var(--line);border-radius:12px}}table{{width:100%;border-collapse:collapse;min-width:680px}}th,td{{padding:.72rem .8rem;border-bottom:1px solid var(--line);text-align:left;font-size:.88rem}}th{{background:#edf3f7;color:#435767}}.mono{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}.actual{{font-weight:800}}.empty{{background:white;border:1px dashed var(--line);border-radius:10px;padding:1rem;color:var(--muted)}}footer{{padding:1.2rem 0 2.5rem;color:var(--muted);font-size:.82rem}}
-@media(max-width:760px){{.grid,.metrics{{grid-template-columns:1fr}}.bar{{align-items:flex-start;flex-direction:column}}main{{padding-top:1rem}}}}
+@media(max-width:760px){{.grid,.metrics{{grid-template-columns:1fr}}.bar,.result-card{{align-items:flex-start;flex-direction:column}}main{{padding-top:1rem}}}}
 </style></head><body>
 <header><div class="bar"><div class="brand">SC Number Lab · Paper Tracker</div><div class="stamp">Updated {built}</div></div></header>
 <main><h1>Pick 3 & Pick 4 registered forecasts</h1><p class="intro">Predictions are recorded before each drawing and scored only after public sources agree. These are experiments, not winning guarantees or ticket recommendations.</p>
 <div class="notice"><strong>Laptop-free updates:</strong> the public cloud workflow checks results and refreshes this page at 9:05 a.m. and 3:05 p.m. Eastern.</div>
 {cloud_notice()}
+{pick3_result_status(pick3_source)}
 <h2>Pick 3 · CHALLENGER-V2</h2><div class="grid">{cards(newest_pending(pick3['rows']), 'Pick 3')}</div>
 <h2>Pick 3 scoreboard</h2><div class="metrics">{metric('Challenger scored',p3_totals['scored_draws'],'of first 100 checkpoint')}{metric('Challenger straight hits',p3_totals['straight_hits'])}{metric('Original Box net',f"${p3_box_net:+.0f}",f"Random control ${p3_random_net:+.0f}")}{metric('Original Box draws',len(p3_scored),'coverage matched')}</div>
-<h2>Recent Pick 3 Challenger results</h2>{recent_table(pick3['rows'],3)}
+<h2>Recent verified Pick 3 results</h2>{pick3_history(pick3_review['rows'])}
 <h2>Pick 4 · locked prospective study</h2><div class="grid">{cards(newest_pending(pick4['rows']), 'Pick 4')}</div>
 <h2>Pick 4 scoreboard</h2><div class="metrics">{metric('Scored draws',p4_totals['scored_draws'],'of first 100 checkpoint')}{metric('Straight hits',p4_totals['straight_hits'])}{metric('Box hits',p4_totals['box_hits'])}{metric('Random Box hits',p4_totals['random_box_hits'],'same coverage')}</div>
 <h2>Recent Pick 4 results</h2>{recent_table(pick4['rows'],4)}
