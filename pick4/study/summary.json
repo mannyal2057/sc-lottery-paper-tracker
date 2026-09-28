@@ -1,19 +1,19 @@
 {
   "version": "SC-PICK4-CHALLENGER-V1",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-09-27T22:01:22.449591+00:00",
+  "updated_utc": "2026-09-28T20:06:40.736570+00:00",
   "protocol_sha256": "03edf63ce06a8edf342f4c73391f3d0cf3e6263f178650c9ebd9c6e961d988f8",
   "totals": {
-    "scored_draws": 2,
+    "scored_draws": 3,
     "straight_hits": 0,
     "random_straight_hits": 0,
     "box_hits": 0,
     "random_box_hits": 0,
-    "straight_net_usd": -6,
-    "random_straight_net_usd": -6,
-    "box_net_usd": -6,
-    "random_box_net_usd": -6,
-    "mean_model_log_loss": 9.213087859392811,
+    "straight_net_usd": -9,
+    "random_straight_net_usd": -9,
+    "box_net_usd": -9,
+    "random_box_net_usd": -9,
+    "mean_model_log_loss": 9.21195738874381,
     "mean_uniform_log_loss": 9.210340371976184
   },
   "checkpoint": {
@@ -186,6 +186,60 @@
           "digits": "1367",
           "ways": 24,
           "probability": 0.0024522756074764774,
+          "gross_prize_usd": 200
+        }
+      ],
+      "result": {
+        "date": "2026-09-28",
+        "draw_type": "Day",
+        "actual": "9945",
+        "scored_utc": "2026-09-28T20:06:40.582784+00:00",
+        "forecast_sha256": "d819d3063f6cf0e138afef411e5154151d547f800c1f93bedec8dabf55861700",
+        "official_snapshot": "sources/official_16d9f4dffc1143932f15.html",
+        "official_snapshot_sha256": "7cb3c383d402a0f5b57cf62afa3be2de0186a87f0d449953e9eef6b71de56b85",
+        "straight_hit": false,
+        "random_straight_hit": false,
+        "box_hit": false,
+        "random_box_hit": false,
+        "model_log_loss": 9.209696447445806,
+        "uniform_log_loss": 9.210340371976184,
+        "straight_gross_usd": 0,
+        "straight_net_usd": -3,
+        "random_straight_net_usd": -3,
+        "box_gross_usd": 0,
+        "box_net_usd": -3,
+        "random_box_gross_usd": 0,
+        "random_box_net_usd": -3,
+        "best_position_matches": 1,
+        "best_digit_overlap": 1
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "draw_type": "Day",
+      "registered_utc": "2026-09-28T20:06:40.669542+00:00",
+      "straight_picks": [
+        "1761",
+        "9771",
+        "7761"
+      ],
+      "box_picks": [
+        {
+          "digits": "1479",
+          "ways": 24,
+          "probability": 0.0024881667299747794,
+          "gross_prize_usd": 200
+        },
+        {
+          "digits": "1379",
+          "ways": 24,
+          "probability": 0.002472956679347647,
+          "gross_prize_usd": 200
+        },
+        {
+          "digits": "1789",
+          "ways": 24,
+          "probability": 0.002463945761132636,
           "gross_prize_usd": 200
         }
       ],
