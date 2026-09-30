@@ -1,38 +1,30 @@
 {
-  "updated_utc": "2026-09-26T21:56:18.892086+00:00",
+  "updated_utc": "2026-09-30T22:56:21.132389+00:00",
   "totals": {
     "Day": {
-      "scored": 12,
+      "scored": 13,
       "model_hits": 0,
       "random_hits": 0,
-      "model_paper_net_usd": -120,
-      "random_paper_net_usd": -120
+      "model_paper_net_usd": -130,
+      "random_paper_net_usd": -130
     },
     "Night": {
-      "scored": 15,
+      "scored": 16,
       "model_hits": 0,
       "random_hits": 0,
-      "model_paper_net_usd": -150,
-      "random_paper_net_usd": -150
+      "model_paper_net_usd": -160,
+      "random_paper_net_usd": -160
     }
   },
   "anomaly": {
-    "night_draws": 15,
+    "night_draws": 16,
     "tens_zero": 1,
-    "tens_seven": 1
+    "tens_seven": 2
   },
   "endpoint_tests": {},
   "registered": 29,
-  "pending": 2,
+  "pending": 0,
   "complete": false,
   "overdue_unverified": [],
-  "awaiting_archive_confirmation": [
-    {
-      "date": "2026-09-26",
-      "draw_type": "Day",
-      "official_number": "070",
-      "status": "Awaiting archive confirmation; not scored",
-      "official_snapshot": "sources/6ec9fbc8315d1f9aba0e_official.html"
-    }
-  ]
+  "awaiting_archive_confirmation": []
 }
