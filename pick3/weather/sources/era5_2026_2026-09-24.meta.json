@@ -1,0 +1,5 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=34.0007&longitude=-81.0348&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=America%2FNew_York&start_date=2026-01-01&end_date=2026-09-24&models=era5",
+  "retrieved_utc": "2026-10-01T18:49:16.017674+00:00",
+  "sha256": "1a9e78a1f18731778e5fb5dcabc31e44fcccd37a60fcdbbbcf91a88b4ace0589"
+}
