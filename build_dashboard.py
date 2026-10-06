@@ -147,7 +147,7 @@ main{{padding:1.5rem 0 3rem}}.notice{{background:#eaf3f8;border:1px solid #c4dce
 </style></head><body>
 <header><div class="bar"><div class="brand">SC Number Lab · Paper Tracker</div><div class="stamp">Updated {built}</div></div></header>
 <main><h1>Pick 3 & Pick 4 registered forecasts</h1><p class="intro">Predictions are recorded before each drawing and scored only after public sources agree. These are experiments, not winning guarantees or ticket recommendations.</p>
-<div class="notice"><strong>Laptop-free updates:</strong> the public cloud workflow checks results and refreshes this page at 9:05 a.m. and 3:05 p.m. Eastern.</div>
+<div class="notice"><strong>Laptop-free updates:</strong> the public cloud workflow checks four times daily, beginning before each drawing cutoff, and refreshes this page automatically.</div>
 {cloud_notice()}
 {pick3_result_status(pick3_source)}
 <h2>Pick 3 · CHALLENGER-V2</h2><div class="grid">{cards(newest_pending(pick3['rows']), 'Pick 3')}</div>

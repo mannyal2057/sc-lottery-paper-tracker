@@ -2,7 +2,9 @@ name: Update predictions and publish dashboard
 
 on:
   schedule:
-    - cron: "5 9,15 * * *"
+    # Free hosted schedules can be delayed. Four separated checks give both
+    # draw cutoffs more than one opportunity without changing registered picks.
+    - cron: "17 6,9,12,15 * * *"
       timezone: "America/New_York"
   workflow_dispatch:
 
