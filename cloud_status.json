@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-06T12:28:38.454088+00:00",
+  "updated_utc": "2026-10-06T13:28:30.304674+00:00",
   "pick3_source": {
     "ok": true,
     "attempts": 1,
@@ -27,6 +27,11 @@
       "message": "updated"
     },
     "challenger_cloud_adapter.py": {
+      "ok": true,
+      "attempts": 1,
+      "message": "updated"
+    },
+    "cdm_cloud_adapter.py": {
       "ok": true,
       "attempts": 1,
       "message": "updated"
