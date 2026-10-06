@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-10-06T12:08:46.741280+00:00",
+  "updated_utc": "2026-10-06T12:24:45.900290+00:00",
   "pick3_source": {
-    "ok": false,
-    "attempts": 3,
-    "message": "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py\", line 1347, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error timed out>"
+    "ok": true,
+    "attempts": 1,
+    "message": "updated with primary or public fallback archive"
   },
   "pick3_supporting": {
     "three_pick_review.py": {
@@ -26,15 +26,15 @@
       "attempts": 1,
       "message": "updated"
     },
-    "challenger_v2.py": {
+    "challenger_cloud_adapter.py": {
       "ok": true,
       "attempts": 1,
       "message": "updated"
     }
   },
   "pick4_source": {
-    "ok": false,
-    "attempts": 3,
-    "message": "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py\", line 1347, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error timed out>"
+    "ok": true,
+    "attempts": 1,
+    "message": "updated with locked model source adapter"
   }
 }

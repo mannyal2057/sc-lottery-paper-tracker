@@ -45,7 +45,7 @@ def main() -> None:
         "updated_utc": datetime.now(timezone.utc).isoformat(),
         "pick3_source": run(py + ["paper_track.py"], pick3_dir, attempts=3),
         "pick3_supporting": {},
-        "pick4_source": run(py + ["pick4_track.py"], pick4_dir, attempts=3),
+        "pick4_source": run(py + ["pick4_cloud_adapter.py"], pick4_dir, attempts=3),
     }
 
     # These scripts use the currently verified records. If a source is temporarily
@@ -55,7 +55,7 @@ def main() -> None:
         "weather_experiment.py",
         "equipment_context.py",
         "box_track.py",
-        "challenger_v2.py",
+        "challenger_cloud_adapter.py",
     ):
         status["pick3_supporting"][script] = run(py + [script], pick3_dir)
 

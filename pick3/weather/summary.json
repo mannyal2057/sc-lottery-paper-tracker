@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-06T12:13:10.645060+00:00",
+  "updated_utc": "2026-10-06T12:24:14.122951+00:00",
   "issues": [],
   "rows": [
     {
@@ -601,6 +601,66 @@
       "baseline_hit": false,
       "weather_log_loss": 7.170000641190912,
       "calendar_log_loss": 7.10550611342336
+    },
+    {
+      "date": "2026-10-06",
+      "draw_type": "Day",
+      "weather_picks": [
+        "077",
+        "877",
+        "047"
+      ],
+      "calendar_picks": [
+        "077",
+        "877",
+        "477"
+      ],
+      "baseline_picks": [
+        "041",
+        "051",
+        "091"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 22.0,
+        "relative_humidity_2m": 55.0,
+        "surface_pressure": 1009.2
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-10-06",
+      "draw_type": "Night",
+      "weather_picks": [
+        "696",
+        "636",
+        "699"
+      ],
+      "calendar_picks": [
+        "619",
+        "639",
+        "699"
+      ],
+      "baseline_picks": [
+        "116",
+        "110",
+        "813"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 24.7,
+        "relative_humidity_2m": 48.0,
+        "surface_pressure": 1005.8
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
     }
   ]
 }

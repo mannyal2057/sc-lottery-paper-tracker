@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-01T23:04:57.142346+00:00",
+  "updated_utc": "2026-10-06T12:24:10.209609+00:00",
   "totals": {
     "Day": {
       "scored": 13,
@@ -22,8 +22,8 @@
     "tens_seven": 2
   },
   "endpoint_tests": {},
-  "registered": 29,
-  "pending": 0,
+  "registered": 31,
+  "pending": 2,
   "complete": false,
   "overdue_unverified": [],
   "awaiting_archive_confirmation": []

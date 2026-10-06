@@ -36,6 +36,20 @@ def random_picks(date,kind):
     seed=int(hashlib.sha256(('SC-PAPER-V1|'+date+'|'+kind).encode()).hexdigest()[:16],16)
     return [f'{i:03d}' for i in np.random.default_rng(seed).choice(1000,10,replace=False)]
 
+def parse_lottery_net(body,kind):
+    """Parse the no-login lottery.net stream archive used when the primary archive times out."""
+    soup=BeautifulSoup(body,'html.parser');records=[]
+    for row in soup.select('tr'):
+        date_node=row.select_one('td.pickArchive')
+        if not date_node:continue
+        try:date=datetime.strptime(date_node.get_text(' ',strip=True),'%A %B %d, %Y').date().isoformat()
+        except ValueError:continue
+        digits=[x.get_text(strip=True) for x in row.select('li[class*="number-part-"]:not(.fireball)')]
+        if len(digits)!=3 or not all(len(x)==1 and x.isdigit() for x in digits):continue
+        records.append({'date':date,'draw_type':kind,'number':''.join(digits)})
+    if not records:raise ValueError('Fallback archive source did not parse')
+    return records
+
 def register(folder,date,kind,p,as_of,now=None):
     now=now or utcnow()
     if now>=deadline(date,kind):raise ValueError('Cannot register at or after pre-draw cutoff')
@@ -108,18 +122,37 @@ def fetch():
     if not official_path.exists():official_path.write_bytes(body)
     years={utcnow().astimezone(TZ).year}
     years.update(int(p.name[:4]) for p in (PAPER/'forecasts').glob('*.json') if not (PAPER/'results'/p.name).exists())
-    records=[]
+    records=[];archive_sources=[]
     for year in sorted(years):
-        body=public_page(f'https://sc.pick-3.com/numbers/{year}')
-        parsed=parse_archive(body)
-        if not parsed:raise ValueError('Archive source did not parse')
-        state_hash=hashlib.sha256(json.dumps(parsed,sort_keys=True).encode()).hexdigest()[:20]
-        snapshot=PAPER/'sources'/f'{state_hash}_archive_{year}.html'
-        if not snapshot.exists():snapshot.write_bytes(body)
+        try:
+            body=public_page(f'https://sc.pick-3.com/numbers/{year}')
+            parsed=parse_archive(body)
+            if not parsed:raise ValueError('Archive source did not parse')
+            state_hash=hashlib.sha256(json.dumps(parsed,sort_keys=True).encode()).hexdigest()[:20]
+            snapshot=PAPER/'sources'/f'{state_hash}_archive_{year}.html'
+            if not snapshot.exists():snapshot.write_bytes(body)
+            archive_sources.append({'year':year,'provider':'sc.pick-3.com','snapshot':str(snapshot.relative_to(PAPER))})
+        except Exception as primary_error:
+            parsed=[];fallback_snapshots=[]
+            for kind,slug in (('Day','pick-3-midday'),('Night','pick-3-evening')):
+                body=public_page(f'https://www.lottery.net/south-carolina/{slug}/numbers/{year}')
+                stream=parse_lottery_net(body,kind);parsed.extend(stream)
+                state_hash=hashlib.sha256(json.dumps(stream,sort_keys=True).encode()).hexdigest()[:20]
+                snapshot=PAPER/'sources'/f'{state_hash}_lotterynet_{year}_{kind}.html'
+                if not snapshot.exists():snapshot.write_bytes(body)
+                fallback_snapshots.append(str(snapshot.relative_to(PAPER)))
+            archive_sources.append({'year':year,'provider':'lottery.net fallback','snapshots':fallback_snapshots,
+                                    'primary_error':str(primary_error)[:240]})
         records.extend(parsed)
     archive={(r['date'],r['draw_type']):r['number'] for r in records}
     for key,value in official.items():
         if key in archive and archive[key]!=value:raise ValueError('Sources disagree at '+str(key))
+    verified=[{'date':date,'draw_type':kind,'number':number}
+              for (date,kind),number in sorted(official.items())
+              if archive.get((date,kind))==number]
+    (PAPER/'verified_history.json').write_text(json.dumps({
+        'checked_utc':utcnow().isoformat(),'rule':'Official SC Lottery and secondary archive agree',
+        'rows':verified},indent=2),encoding='utf-8')
     pending=[]
     for p in (PAPER/'forecasts').glob('*.json'):
         f=json.loads(p.read_text());key=(f['date'],f['draw_type'])
@@ -128,7 +161,7 @@ def fetch():
                             'status':'Awaiting archive confirmation; not scored',
                             'official_snapshot':str(official_path.relative_to(PAPER))})
     (PAPER/'source_status.json').write_text(json.dumps({'checked_utc':utcnow().isoformat(),
-        'awaiting_archive_confirmation':pending},indent=2),encoding='utf-8')
+        'archive_sources':archive_sources,'awaiting_archive_confirmation':pending},indent=2),encoding='utf-8')
     return archive,official,str(official_path.relative_to(PAPER))
 
 def render(protocol):
