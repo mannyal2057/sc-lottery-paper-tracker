@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-06T13:28:32.146988+00:00",
+  "checked_utc": "2026-10-06T18:54:53.197134+00:00",
   "archive_sources": [
     {
       "year": 2026,
@@ -7,5 +7,13 @@
       "snapshot": "sources/2d2daf544970e9c98e5d_archive_2026.html"
     }
   ],
-  "awaiting_archive_confirmation": []
+  "awaiting_archive_confirmation": [
+    {
+      "date": "2026-10-06",
+      "draw_type": "Day",
+      "official_number": "856",
+      "status": "Awaiting archive confirmation; not scored",
+      "official_snapshot": "sources/0e14f475ec03967539e3_official.html"
+    }
+  ]
 }
