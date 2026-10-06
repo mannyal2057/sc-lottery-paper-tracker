@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-10-06T12:24:45.900290+00:00",
+  "updated_utc": "2026-10-06T12:26:15.371066+00:00",
   "pick3_source": {
-    "ok": true,
-    "attempts": 1,
-    "message": "updated with primary or public fallback archive"
+    "ok": false,
+    "attempts": 3,
+    "message": "    if digest(stored_path(row['file']))!=row['sha256']:raise ValueError('Registered record changed: '+row['file']) |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: Registered record changed: forecasts/2026-10-06_Day.json"
   },
   "pick3_supporting": {
     "three_pick_review.py": {
@@ -22,9 +22,9 @@
       "message": "updated"
     },
     "box_track.py": {
-      "ok": true,
+      "ok": false,
       "attempts": 1,
-      "message": "updated"
+      "message": "    if digest(stored_path(row['file']))!=row['sha256']:raise ValueError('Registered record changed: '+row['file']) |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: Registered record changed: forecasts/2026-10-06_Day.json"
     },
     "challenger_cloud_adapter.py": {
       "ok": true,
@@ -35,6 +35,6 @@
   "pick4_source": {
     "ok": true,
     "attempts": 1,
-    "message": "updated with locked model source adapter"
+    "message": "updated"
   }
 }
