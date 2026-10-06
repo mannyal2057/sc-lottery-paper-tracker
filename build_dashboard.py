@@ -122,6 +122,7 @@ def pick3_history(rows):
 
 def main():
     pick3 = load("pick3/challenger_v2/summary.json")
+    cdm = load("pick3/cdm_challenger_v1/summary.json")
     pick3_review = load("pick3/paper/three_pick_review.json")
     pick3_source = load("pick3/paper/source_status.json")
     pick4 = load("pick4/study/summary.json")
@@ -130,6 +131,7 @@ def main():
     p3_box_net = sum(row["result"]["net_usd"] for row in p3_scored)
     p3_random_net = sum(row["result"]["random_net_usd"] for row in p3_scored)
     p3_totals = pick3["totals"]
+    cdm_totals = cdm["totals"]
     p4_totals = pick4["totals"]
     built = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
     favicon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d2538'/%3E%3Ccircle cx='32' cy='32' r='20' fill='%23f2b84b'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='24' font-family='Arial' font-weight='700' fill='%230d2538'%3E34%3C/text%3E%3C/svg%3E"
@@ -152,13 +154,17 @@ main{{padding:1.5rem 0 3rem}}.notice{{background:#eaf3f8;border:1px solid #c4dce
 {pick3_result_status(pick3_source)}
 <h2>Pick 3 · CHALLENGER-V2</h2><div class="grid">{cards(newest_pending(pick3['rows']), 'Pick 3')}</div>
 <h2>Pick 3 scoreboard</h2><div class="metrics">{metric('Challenger scored',p3_totals['scored_draws'],'of first 100 checkpoint')}{metric('Challenger straight hits',p3_totals['straight_hits'])}{metric('Original Box net',f"${p3_box_net:+.0f}",f"Random control ${p3_random_net:+.0f}")}{metric('Original Box draws',len(p3_scored),'coverage matched')}</div>
+<h2>Pick 3 · CDM-CHALLENGER-V1</h2><div class="grid">{cards(newest_pending(cdm['rows']), 'CDM Pick 3')}</div>
+<h2>CDM scoreboard</h2><div class="metrics">{metric('Scored draws',cdm_totals['scored_draws'],'of 100 descriptive checkpoint')}{metric('Straight hits',cdm_totals['straight_hits'],f"Random {cdm_totals['random_straight_hits']}")}{metric('Box hits',cdm_totals['box_hits'],f"Random {cdm_totals['random_box_hits']}")}{metric('CDM Box net',f"${cdm_totals['box_net_usd']:+.0f}",f"Random ${cdm_totals['random_box_net_usd']:+.0f}")}</div>
 <h2>Recent verified Pick 3 results</h2>{pick3_history(pick3_review['rows'])}
 <h2>Pick 4 · locked prospective study</h2><div class="grid">{cards(newest_pending(pick4['rows']), 'Pick 4')}</div>
 <h2>Pick 4 scoreboard</h2><div class="metrics">{metric('Scored draws',p4_totals['scored_draws'],'of first 100 checkpoint')}{metric('Straight hits',p4_totals['straight_hits'])}{metric('Box hits',p4_totals['box_hits'])}{metric('Random Box hits',p4_totals['random_box_hits'],'same coverage')}</div>
 <h2>Recent Pick 4 results</h2>{recent_table(pick4['rows'],4)}
 </main><footer>Public paper study · South Carolina Pick 3 and Pick 4 · FIREBALL excluded · No purchases are made.</footer></body></html>"""
     SITE.mkdir(exist_ok=True)
-    (SITE / "index.html").write_text(page, encoding="utf-8")
+    # Keep the generated artifact byte-stable across Windows development and
+    # Linux GitHub Actions runners.
+    (SITE / "index.html").write_bytes(page.encode("utf-8"))
 
 
 if __name__ == "__main__":

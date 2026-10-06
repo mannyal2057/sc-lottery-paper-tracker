@@ -56,6 +56,7 @@ def main() -> None:
         "equipment_context.py",
         "box_track.py",
         "challenger_cloud_adapter.py",
+        "cdm_cloud_adapter.py",
     ):
         status["pick3_supporting"][script] = run(py + [script], pick3_dir)
 

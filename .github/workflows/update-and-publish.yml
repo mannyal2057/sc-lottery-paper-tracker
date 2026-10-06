@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "SC Lottery Paper Tracker"
           git config user.email "actions@users.noreply.github.com"
-          git add cloud_status.json pick3/paper pick3/weather pick3/equipment pick3/box pick3/challenger_v2 pick4/study site
+          git add cloud_status.json pick3/paper pick3/weather pick3/equipment pick3/box pick3/challenger_v2 pick3/cdm_challenger_v1 pick4/study site
           if ! git diff --cached --quiet; then
             git commit -m "Update prospective paper records"
             git push

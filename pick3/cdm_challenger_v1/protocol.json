@@ -1,0 +1,28 @@
+{
+  "version": "CDM-CHALLENGER-V1",
+  "created_utc": "2026-10-06T13:25:03.252766+00:00",
+  "status": "LOCKED_PROSPECTIVE",
+  "code_sha256": "8bab892b65867f22e7dbccd614c01203e413a9e7d28e0eecb7ff322f688916bd",
+  "research_basis": "Research-inspired implementation informed by Nkomozake, Predicting Winning Lottery Numbers, arXiv:2403.12836. This is an independent, fully specified implementation; it does not reproduce or validate that paper's claimed strategy.",
+  "seed": 20261006,
+  "model": {
+    "cdm_weight": 0.5,
+    "position_weight": 0.5,
+    "position_prior_per_digit": 10.0,
+    "global_prior_per_digit": 1.0,
+    "concentration_estimator": "Fixed method-of-moments from within-draw pair collision frequency, clipped to [1, 10000].",
+    "pool": "Equal-weight logarithmic pool of exchangeable Dirichlet-multinomial sequence probabilities and position-specific Dirichlet-categorical posterior probabilities."
+  },
+  "selection": "Three highest-probability straights and three highest-probability unordered 3-way/6-way Box classes; triples excluded from Box selections.",
+  "controls": "Three seeded random distinct straights and seeded random boxes with identical 3-way/6-way composition, coverage and cost.",
+  "registration": "Register only before 12:45 Day / 18:45 Night America/New_York using verified preceding same-stream draws. Exclusive-create records; never backfill, overwrite or retune this version.",
+  "costs": {
+    "straight_cost_per_draw_usd": 3,
+    "box_cost_per_draw_usd": 3,
+    "straight_gross_prize_usd": 500,
+    "box_3way_gross_usd": 160,
+    "box_6way_gross_usd": 80
+  },
+  "evaluation": "Compare exact and Box hits, log loss, gross prizes and net against uniform, original baseline, CHALLENGER-V2 and coverage-matched seeded random controls. Descriptive checkpoint at 100 scored drawings; final comparison at 200 scored draws per stream.",
+  "limitations": "A fair lottery may be independent of history. This paper-only experiment is not evidence of an advantage or a recommendation to buy tickets. Progressive staking is prohibited."
+}
