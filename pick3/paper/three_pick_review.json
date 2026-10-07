@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-06T23:11:39.612888+00:00",
+  "updated_utc": "2026-10-07T17:27:48.634090+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -684,12 +684,12 @@
       ],
       "original_registered_utc": "2026-10-06T12:18:53.648280+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
-      "result": null,
-      "straight_hit": null,
-      "random_straight_hit": null,
-      "box_hit": null,
-      "best_position_matches": null,
-      "best_digit_overlap": null,
+      "result": "856",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1,
       "review_on": "2026-10-07"
     },
     {
@@ -707,12 +707,12 @@
       ],
       "original_registered_utc": "2026-10-06T12:19:31.076935+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
-      "result": null,
-      "straight_hit": null,
-      "random_straight_hit": null,
-      "box_hit": null,
-      "best_position_matches": null,
-      "best_digit_overlap": null,
+      "result": "554",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 0,
       "review_on": "2026-10-07"
     }
   ],
