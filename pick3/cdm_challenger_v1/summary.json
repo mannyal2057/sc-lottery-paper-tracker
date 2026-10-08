@@ -1,7 +1,7 @@
 {
   "version": "CDM-CHALLENGER-V1",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-10-08T17:25:43.824260+00:00",
+  "updated_utc": "2026-10-08T21:24:05.669231+00:00",
   "protocol_sha256": "ba16b456758e32c2fb4dbc6d19e767f0d559b18bc01c999ec219fa38c421e087",
   "totals": {
     "scored_draws": 2,
@@ -129,6 +129,37 @@
         "best_position_matches": 0,
         "best_digit_overlap": 2
       }
+    },
+    {
+      "date": "2026-10-08",
+      "draw_type": "Night",
+      "registered_utc": "2026-10-08T21:24:05.572289+00:00",
+      "straight_picks": [
+        "403",
+        "433",
+        "405"
+      ],
+      "box_picks": [
+        {
+          "digits": "349",
+          "ways": 6,
+          "probability": 0.006370529620899976,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "239",
+          "ways": 6,
+          "probability": 0.006328199677725634,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "039",
+          "ways": 6,
+          "probability": 0.00631741920726486,
+          "gross_prize_usd": 80
+        }
+      ],
+      "result": null
     }
   ]
 }

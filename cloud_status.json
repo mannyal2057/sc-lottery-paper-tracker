@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-10-08T17:24:27.615030+00:00",
+  "updated_utc": "2026-10-08T21:23:27.815831+00:00",
   "pick3_source": {
-    "ok": false,
-    "attempts": 3,
-    "message": "    combined=normalize(sum(w*p[name] for name,w in protocol['weights'][kind].items())) |                              ~^^^^^^ | KeyError: 'xgboost'"
+    "ok": true,
+    "attempts": 1,
+    "message": "updated"
   },
   "pick3_supporting": {
     "three_pick_review.py": {

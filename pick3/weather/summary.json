@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T17:25:42.016427+00:00",
+  "updated_utc": "2026-10-08T21:24:00.555160+00:00",
   "issues": [],
   "rows": [
     {
@@ -661,6 +661,36 @@
       "baseline_hit": false,
       "weather_log_loss": 7.168754805456912,
       "calendar_log_loss": 7.072456287365769
+    },
+    {
+      "date": "2026-10-08",
+      "draw_type": "Night",
+      "weather_picks": [
+        "636",
+        "696",
+        "136"
+      ],
+      "calendar_picks": [
+        "636",
+        "639",
+        "616"
+      ],
+      "baseline_picks": [
+        "130",
+        "196",
+        "136"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 26.9,
+        "relative_humidity_2m": 39.0,
+        "surface_pressure": 1005.9
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
     }
   ]
 }

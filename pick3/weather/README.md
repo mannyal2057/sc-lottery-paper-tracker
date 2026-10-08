@@ -26,5 +26,6 @@ Outdoor Columbia temperature, humidity and pressure; not studio measurements. Ex
 | 2026-09-26 | Night | 036, 096, 086 | 836, 826, 846 | 116, 136, 216 | 170 |
 | 2026-10-06 | Day | 077, 877, 047 | 077, 877, 477 | 041, 051, 091 | 856 |
 | 2026-10-06 | Night | 696, 636, 699 | 619, 639, 699 | 116, 110, 813 | 554 |
+| 2026-10-08 | Night | 636, 696, 136 | 636, 639, 616 | 130, 196, 136 | Pending |
 
 Issues: None

@@ -26,5 +26,6 @@ Paper only. Each selection costs $1 hypothetically; $3 per drawing, separately f
 | 2026-09-26 | Night | 139 (6-way), 135 (6-way), 123 (6-way) | 1.8% | 170 | -3 |
 | 2026-10-06 | Day | 125 (6-way), 129 (6-way), 124 (6-way) | 1.8% | 856 | -3 |
 | 2026-10-06 | Night | 138 (6-way), 169 (6-way), 189 (6-way) | 1.8% | 554 | -3 |
+| 2026-10-08 | Night | 139 (6-way), 013 (6-way), 169 (6-way) | 1.8% | Pending | Pending |
 
 Higher hit probability comes with lower prizes. Random controls have the same cost and permutation coverage. Old straight any-order observations are not retroactively Box wagers.

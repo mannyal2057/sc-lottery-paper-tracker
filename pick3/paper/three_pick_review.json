@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T17:25:39.766923+00:00",
+  "updated_utc": "2026-10-08T21:23:56.743997+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -714,6 +714,29 @@
       "best_position_matches": 0,
       "best_digit_overlap": 0,
       "review_on": "2026-10-07"
+    },
+    {
+      "date": "2026-10-08",
+      "draw_type": "Night",
+      "picks": [
+        "130",
+        "196",
+        "136"
+      ],
+      "random_picks": [
+        "392",
+        "575",
+        "096"
+      ],
+      "original_registered_utc": "2026-10-08T21:23:43.053687+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": null,
+      "straight_hit": null,
+      "random_straight_hit": null,
+      "box_hit": null,
+      "best_position_matches": null,
+      "best_digit_overlap": null,
+      "review_on": "2026-10-09"
     }
   ],
   "note": "Three distinct straights have fair hit probability 3/1000 per draw. No ticket purchases. One miss is not evidence that a new model will be better."
