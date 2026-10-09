@@ -1,10 +1,10 @@
 {
-  "checked_utc": "2026-10-09T17:00:10.243880+00:00",
+  "checked_utc": "2026-10-09T23:16:09.240986+00:00",
   "archive_sources": [
     {
       "year": 2026,
       "provider": "sc.pick-3.com",
-      "snapshot": "sources/6fc0f8092080c94d6e22_archive_2026.html"
+      "snapshot": "sources/49e45ae6df7e3ceb863b_archive_2026.html"
     }
   ],
   "awaiting_archive_confirmation": []
