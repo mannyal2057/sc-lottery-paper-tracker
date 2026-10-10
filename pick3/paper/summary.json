@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-10T15:52:39.728758+00:00",
+  "updated_utc": "2026-10-10T20:04:03.387848+00:00",
   "totals": {
     "Day": {
       "scored": 15,
@@ -26,5 +26,13 @@
   "pending": 2,
   "complete": false,
   "overdue_unverified": [],
-  "awaiting_archive_confirmation": []
+  "awaiting_archive_confirmation": [
+    {
+      "date": "2026-10-10",
+      "draw_type": "Day",
+      "official_number": "777",
+      "status": "Awaiting archive confirmation; not scored",
+      "official_snapshot": "sources/00c977a6cb9e71e50f76_official.html"
+    }
+  ]
 }
