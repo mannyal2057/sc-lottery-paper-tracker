@@ -17,7 +17,9 @@ def public_page(url):
     """Avoid cached pre-draw pages when checking newly published results."""
     separator='&' if '?' in url else '?'
     request=urllib.request.Request(url+separator+'paper_check='+str(int(utcnow().timestamp())),
-        headers={'Cache-Control':'no-cache','Pragma':'no-cache'})
+        headers={'User-Agent':'Mozilla/5.0 SC-Lottery-paper-tracker/1.0',
+                 'Accept':'text/html,application/xhtml+xml','Connection':'close',
+                 'Cache-Control':'no-cache','Pragma':'no-cache'})
     with urllib.request.urlopen(request,timeout=30) as response:
         return response.read()
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -108,21 +110,25 @@ def fetch():
     from acquire import parse_archive
     stamp=utcnow().strftime('%Y%m%dT%H%M%S%fZ')
     official_url='https://sceducationlottery.com/Games/Pick3'
-    body=public_page(official_url)
-    soup=BeautifulSoup(body,'html.parser');official={}
-    for box in soup.select('.drawResultsaccordion-title'):
-        date=datetime.strptime(box.select_one('.lightblue-bg').get_text(strip=True),'%B %d, %Y').date().isoformat()
-        kind={'Midday':'Day','Evening':'Night'}[box.select_one('.lightblue-bg-right').get_text(strip=True)]
-        number=''.join(x.get_text(strip=True) for x in box.select('li.number:not(.fireball)'))
-        assert len(number)==3 and number.isdigit()
-        official[(date,kind)]=number
-    if not official:raise ValueError('Official source did not parse')
-    state_hash=hashlib.sha256(json.dumps(sorted((d,k,n) for (d,k),n in official.items())).encode()).hexdigest()[:20]
-    official_path=PAPER/'sources'/f'{state_hash}_official.html'
-    if not official_path.exists():official_path.write_bytes(body)
+    official={};official_error=None;official_path=None
+    try:
+        body=public_page(official_url)
+        soup=BeautifulSoup(body,'html.parser')
+        for box in soup.select('.drawResultsaccordion-title'):
+            date=datetime.strptime(box.select_one('.lightblue-bg').get_text(strip=True),'%B %d, %Y').date().isoformat()
+            kind={'Midday':'Day','Evening':'Night'}[box.select_one('.lightblue-bg-right').get_text(strip=True)]
+            number=''.join(x.get_text(strip=True) for x in box.select('li.number:not(.fireball)'))
+            assert len(number)==3 and number.isdigit()
+            official[(date,kind)]=number
+        if not official:raise ValueError('Official source did not parse')
+        state_hash=hashlib.sha256(json.dumps(sorted((d,k,n) for (d,k),n in official.items())).encode()).hexdigest()[:20]
+        official_path=PAPER/'sources'/f'{state_hash}_official.html'
+        if not official_path.exists():official_path.write_bytes(body)
+    except Exception as error:
+        official_error=str(error)[:500]
     years={utcnow().astimezone(TZ).year}
     years.update(int(p.name[:4]) for p in (PAPER/'forecasts').glob('*.json') if not (PAPER/'results'/p.name).exists())
-    records=[];archive_sources=[]
+    records=[];archive_sources=[];current_primary_available=False
     for year in sorted(years):
         try:
             body=public_page(f'https://sc.pick-3.com/numbers/{year}')
@@ -132,6 +138,7 @@ def fetch():
             snapshot=PAPER/'sources'/f'{state_hash}_archive_{year}.html'
             if not snapshot.exists():snapshot.write_bytes(body)
             archive_sources.append({'year':year,'provider':'sc.pick-3.com','snapshot':str(snapshot.relative_to(PAPER))})
+            if year==utcnow().astimezone(TZ).year:current_primary_available=True
         except Exception as primary_error:
             parsed=[];fallback_snapshots=[]
             for kind,slug in (('Day','pick-3-midday'),('Night','pick-3-evening')):
@@ -145,13 +152,36 @@ def fetch():
                                     'primary_error':str(primary_error)[:240]})
         records.extend(parsed)
     archive={(r['date'],r['draw_type']):r['number'] for r in records}
+    result_source='official SC Lottery'
+    if not official:
+        # If the official site is unreachable from a hosted runner, accept only
+        # agreement between two independent public archives. Never use
+        # lottery.net as both sides of the comparison.
+        if not current_primary_available:
+            raise ValueError('Official source unavailable and no independent sc.pick-3.com archive is available')
+        fallback_records=[];fallback_snapshots=[]
+        year=utcnow().astimezone(TZ).year
+        for kind,slug in (('Day','pick-3-midday'),('Night','pick-3-evening')):
+            body=public_page(f'https://www.lottery.net/south-carolina/{slug}/numbers/{year}')
+            stream=parse_lottery_net(body,kind);fallback_records.extend(stream)
+            state_hash=hashlib.sha256(json.dumps(stream,sort_keys=True).encode()).hexdigest()[:20]
+            snapshot=PAPER/'sources'/f'{state_hash}_lotterynet_result_{year}_{kind}.html'
+            if not snapshot.exists():snapshot.write_bytes(body)
+            fallback_snapshots.append(str(snapshot.relative_to(PAPER)))
+        official={(r['date'],r['draw_type']):r['number'] for r in fallback_records}
+        state_hash=hashlib.sha256(json.dumps(sorted((d,k,n) for (d,k),n in official.items())).encode()).hexdigest()[:20]
+        official_path=PAPER/'sources'/f'{state_hash}_dual_archive_result.json'
+        if not official_path.exists():
+            official_path.write_text(json.dumps({'provider':'lottery.net','snapshots':fallback_snapshots,
+                'official_source_error':official_error,'rows':fallback_records},indent=2),encoding='utf-8')
+        result_source='lottery.net fallback, independently checked against sc.pick-3.com'
     for key,value in official.items():
         if key in archive and archive[key]!=value:raise ValueError('Sources disagree at '+str(key))
     verified=[{'date':date,'draw_type':kind,'number':number}
               for (date,kind),number in sorted(official.items())
               if archive.get((date,kind))==number]
     (PAPER/'verified_history.json').write_text(json.dumps({
-        'checked_utc':utcnow().isoformat(),'rule':'Official SC Lottery and secondary archive agree',
+        'checked_utc':utcnow().isoformat(),'rule':result_source+'; two independent sources must agree',
         'rows':verified},indent=2),encoding='utf-8')
     pending=[]
     for p in (PAPER/'forecasts').glob('*.json'):
@@ -161,6 +191,7 @@ def fetch():
                             'status':'Awaiting archive confirmation; not scored',
                             'official_snapshot':str(official_path.relative_to(PAPER))})
     (PAPER/'source_status.json').write_text(json.dumps({'checked_utc':utcnow().isoformat(),
+        'result_source':result_source,'official_source_error':official_error,
         'archive_sources':archive_sources,'awaiting_archive_confirmation':pending},indent=2),encoding='utf-8')
     return archive,official,str(official_path.relative_to(PAPER))
 

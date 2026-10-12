@@ -1,20 +1,20 @@
 {
   "version": "SC-PICK4-CHALLENGER-V1",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-10-10T20:04:14.232654+00:00",
+  "updated_utc": "2026-10-12T13:48:34.099532+00:00",
   "protocol_sha256": "03edf63ce06a8edf342f4c73391f3d0cf3e6263f178650c9ebd9c6e961d988f8",
   "totals": {
-    "scored_draws": 21,
+    "scored_draws": 22,
     "straight_hits": 0,
     "random_straight_hits": 0,
     "box_hits": 1,
     "random_box_hits": 0,
-    "straight_net_usd": -63,
-    "random_straight_net_usd": -63,
-    "box_net_usd": 137,
-    "random_box_net_usd": -63,
-    "mean_model_log_loss": 9.219533956854516,
-    "mean_uniform_log_loss": 9.210340371976182
+    "straight_net_usd": -66,
+    "random_straight_net_usd": -66,
+    "box_net_usd": 134,
+    "random_box_net_usd": -66,
+    "mean_model_log_loss": 9.218026308471007,
+    "mean_uniform_log_loss": 9.21034037197618
   },
   "checkpoint": {
     "first_box_checkpoint_draws": 100,
@@ -1246,7 +1246,30 @@
           "gross_prize_usd": 200
         }
       ],
-      "result": null
+      "result": {
+        "date": "2026-10-10",
+        "draw_type": "Night",
+        "actual": "0934",
+        "scored_utc": "2026-10-12T13:48:33.584933+00:00",
+        "forecast_sha256": "313513257e6e7b8d797780be602ce9991e113f244d2e2bb3817bd7f72988fbe8",
+        "official_snapshot": "sources\\official_4009bdc15bcde1faaca8.html",
+        "official_snapshot_sha256": "076e9e98067bce49f64c9ad02fbe6e6262c6fcece2260028fbc24f9ca278f045",
+        "straight_hit": false,
+        "random_straight_hit": false,
+        "box_hit": false,
+        "random_box_hit": false,
+        "model_log_loss": 9.186365692417317,
+        "uniform_log_loss": 9.210340371976184,
+        "straight_gross_usd": 0,
+        "straight_net_usd": -3,
+        "random_straight_net_usd": -3,
+        "box_gross_usd": 0,
+        "box_net_usd": -3,
+        "random_box_gross_usd": 0,
+        "random_box_net_usd": -3,
+        "best_position_matches": 0,
+        "best_digit_overlap": 2
+      }
     },
     {
       "date": "2026-10-12",

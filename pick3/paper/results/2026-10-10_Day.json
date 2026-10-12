@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "draw_type": "Day",
+  "number": "777",
+  "scored_utc": "2026-10-12T13:47:41.933303+00:00",
+  "official_snapshot": "sources\\37e714fc4441ca46c909_official.html",
+  "official_snapshot_sha256": "a4166b66713a61a289a29ba7e0dde3cc8ccbcd9ac91bcbd79bb4cf461b68c596",
+  "forecast_sha256": "9cad1bea02262590d5400750d9c0798d6ae5108f4665169b7f633ab83ae3428e",
+  "model_hit": false,
+  "random_hit": false,
+  "model_log_loss": 6.935354447848701
+}

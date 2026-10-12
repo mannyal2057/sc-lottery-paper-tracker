@@ -14,7 +14,9 @@ import pick4_track as locked
 
 
 used_fallback = False
+history_provider = None
 original_acquire_history = locked.acquire_history
+original_fetch_current = locked.fetch_current
 
 
 def parse_lottery_net(body, draw_type):
@@ -37,11 +39,14 @@ def parse_lottery_net(body, draw_type):
 
 
 def fallback_history():
-    global used_fallback
+    global used_fallback, history_provider
     try:
-        return original_acquire_history()
+        result = original_acquire_history()
+        history_provider = "sc.pick-4.com"
+        return result
     except Exception as primary_error:
         used_fallback = True
+        history_provider = "lottery.net"
         raw = locked.OUT / "sources" / "history"
         current_year = locked.utcnow().astimezone(locked.TZ).year
         records = []
@@ -72,7 +77,35 @@ def fallback_history():
         return frame.reset_index(drop=True), snapshots
 
 
+def resilient_current():
+    try:
+        return original_fetch_current()
+    except Exception as official_error:
+        if history_provider != "sc.pick-4.com":
+            raise ValueError("Pick 4 official source and independent primary archive are both unavailable") from official_error
+        year = locked.utcnow().astimezone(locked.TZ).year
+        records = []
+        snapshots = []
+        for draw_type, slug in (("Day", "pick-4-midday"), ("Night", "pick-4-evening")):
+            body = locked.public_page(f"https://www.lottery.net/south-carolina/{slug}/numbers/{year}")
+            stream = parse_lottery_net(body, draw_type)
+            records.extend(stream)
+            state = hashlib.sha256(json.dumps(stream, sort_keys=True).encode()).hexdigest()[:20]
+            path = locked.OUT / "sources" / f"lotterynet_result_{year}_{draw_type}_{state}.html"
+            if not path.exists():
+                path.write_bytes(body)
+            snapshots.append(str(path.relative_to(locked.OUT)))
+        results = {(row["date"], row["draw_type"]): row["number"] for row in records}
+        state = hashlib.sha256(json.dumps(sorted((d, k, n) for (d, k), n in results.items())).encode()).hexdigest()[:20]
+        manifest = locked.OUT / "sources" / f"dual_archive_result_{state}.json"
+        if not manifest.exists():
+            manifest.write_text(json.dumps({"provider": "lottery.net", "snapshots": snapshots,
+                "official_source_error": str(official_error)[:500], "rows": records}, indent=2), encoding="utf-8")
+        return results, manifest
+
+
 locked.acquire_history = fallback_history
+locked.fetch_current = resilient_current
 locked.main()
 
 if used_fallback:
