@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-12T13:53:05.840980+00:00",
+  "checked_utc": "2026-10-12T19:48:33.289771+00:00",
   "result_source": "official SC Lottery",
   "official_source_error": null,
   "archive_sources": [
@@ -9,5 +9,13 @@
       "snapshot": "sources/1a6f99f0ff2ea35f4e68_archive_2026.html"
     }
   ],
-  "awaiting_archive_confirmation": []
+  "awaiting_archive_confirmation": [
+    {
+      "date": "2026-10-12",
+      "draw_type": "Day",
+      "official_number": "662",
+      "status": "Awaiting archive confirmation; not scored",
+      "official_snapshot": "sources/550a7865188b9e10c87d_official.html"
+    }
+  ]
 }
