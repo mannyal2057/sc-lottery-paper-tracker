@@ -1,12 +1,12 @@
 {
-  "checked_utc": "2026-10-12T13:47:41.931124+00:00",
+  "checked_utc": "2026-10-12T13:53:05.840980+00:00",
   "result_source": "official SC Lottery",
   "official_source_error": null,
   "archive_sources": [
     {
       "year": 2026,
       "provider": "sc.pick-3.com",
-      "snapshot": "sources\\1a6f99f0ff2ea35f4e68_archive_2026.html"
+      "snapshot": "sources/1a6f99f0ff2ea35f4e68_archive_2026.html"
     }
   ],
   "awaiting_archive_confirmation": []
