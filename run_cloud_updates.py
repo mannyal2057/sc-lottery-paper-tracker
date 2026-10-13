@@ -50,15 +50,15 @@ def main() -> None:
 
     # These scripts use the currently verified records. If a source is temporarily
     # unavailable they retain pending outcomes rather than inventing a result.
-    for script in (
-        "three_pick_review.py",
-        "weather_experiment.py",
-        "equipment_context.py",
-        "box_track.py",
-        "challenger_cloud_adapter.py",
-        "cdm_cloud_adapter.py",
+    for label, script in (
+        ("three_pick_review.py", "three_pick_review.py"),
+        ("weather_experiment.py", "weather_cloud_adapter.py"),
+        ("equipment_context.py", "equipment_context.py"),
+        ("box_track.py", "box_track.py"),
+        ("challenger_cloud_adapter.py", "challenger_cloud_adapter.py"),
+        ("cdm_cloud_adapter.py", "cdm_cloud_adapter.py"),
     ):
-        status["pick3_supporting"][script] = run(py + [script], pick3_dir)
+        status["pick3_supporting"][label] = run(py + [script], pick3_dir)
 
     STATUS_PATH.write_text(json.dumps(status, indent=2) + "\n", encoding="utf-8")
     for label in ("pick3_source", "pick4_source"):

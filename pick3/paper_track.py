@@ -152,6 +152,35 @@ def fetch():
                                     'primary_error':str(primary_error)[:240]})
         records.extend(parsed)
     archive={(r['date'],r['draw_type']):r['number'] for r in records}
+    # A reachable archive can still lag the official result by a day.  When
+    # that happens, use a second independent archive only for the missing
+    # official rows.  This keeps the two-source rule while allowing the next
+    # forecast to be registered before its cutoff.
+    if official:
+        missing={key for key in official if key not in archive}
+        if missing:
+            year=utcnow().astimezone(TZ).year
+            supplemental=[];supplemental_snapshots=[]
+            try:
+                for kind,slug in (('Day','pick-3-midday'),('Night','pick-3-evening')):
+                    body=public_page(f'https://www.lottery.net/south-carolina/{slug}/numbers/{year}')
+                    stream=parse_lottery_net(body,kind);supplemental.extend(stream)
+                    state_hash=hashlib.sha256(json.dumps(stream,sort_keys=True).encode()).hexdigest()[:20]
+                    snapshot=PAPER/'sources'/f'{state_hash}_lotterynet_supplement_{year}_{kind}.html'
+                    if not snapshot.exists():snapshot.write_bytes(body)
+                    supplemental_snapshots.append(str(snapshot.relative_to(PAPER)))
+                secondary={(r['date'],r['draw_type']):r['number'] for r in supplemental}
+                accepted=[]
+                for key in sorted(missing):
+                    if secondary.get(key)==official[key]:
+                        archive[key]=secondary[key];accepted.append({'date':key[0],'draw_type':key[1]})
+                if accepted:
+                    archive_sources.append({'year':year,'provider':'lottery.net',
+                        'snapshots':supplemental_snapshots,'role':'supplement missing sc.pick-3.com rows',
+                        'accepted_rows':accepted})
+            except Exception as supplemental_error:
+                archive_sources.append({'year':year,'provider':'lottery.net','role':'supplement failed',
+                    'error':str(supplemental_error)[:240]})
     result_source='official SC Lottery'
     if not official:
         # If the official site is unreachable from a hosted runner, accept only

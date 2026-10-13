@@ -1,7 +1,7 @@
 {
   "version": "SC-PICK4-CHALLENGER-V1",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-10-12T19:48:41.308217+00:00",
+  "updated_utc": "2026-10-13T12:59:07.404639+00:00",
   "protocol_sha256": "03edf63ce06a8edf342f4c73391f3d0cf3e6263f178650c9ebd9c6e961d988f8",
   "totals": {
     "scored_draws": 23,
@@ -1351,6 +1351,37 @@
           "digits": "1347",
           "ways": 24,
           "probability": 0.0024615721885660087,
+          "gross_prize_usd": 200
+        }
+      ],
+      "result": null
+    },
+    {
+      "date": "2026-10-13",
+      "draw_type": "Night",
+      "registered_utc": "2026-10-13T12:56:15.625210+00:00",
+      "straight_picks": [
+        "3626",
+        "3826",
+        "3628"
+      ],
+      "box_picks": [
+        {
+          "digits": "2368",
+          "ways": 24,
+          "probability": 0.002501279430768137,
+          "gross_prize_usd": 200
+        },
+        {
+          "digits": "3689",
+          "ways": 24,
+          "probability": 0.002479056025641041,
+          "gross_prize_usd": 200
+        },
+        {
+          "digits": "3468",
+          "ways": 24,
+          "probability": 0.0024750984648516227,
           "gross_prize_usd": 200
         }
       ],

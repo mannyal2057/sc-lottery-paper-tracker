@@ -1,21 +1,13 @@
 {
-  "checked_utc": "2026-10-12T19:48:33.289771+00:00",
+  "checked_utc": "2026-10-13T12:58:56.571934+00:00",
   "result_source": "official SC Lottery",
   "official_source_error": null,
   "archive_sources": [
     {
       "year": 2026,
       "provider": "sc.pick-3.com",
-      "snapshot": "sources/1a6f99f0ff2ea35f4e68_archive_2026.html"
+      "snapshot": "sources\\46fddfcc79bde5b93723_archive_2026.html"
     }
   ],
-  "awaiting_archive_confirmation": [
-    {
-      "date": "2026-10-12",
-      "draw_type": "Day",
-      "official_number": "662",
-      "status": "Awaiting archive confirmation; not scored",
-      "official_snapshot": "sources/550a7865188b9e10c87d_official.html"
-    }
-  ]
+  "awaiting_archive_confirmation": []
 }
