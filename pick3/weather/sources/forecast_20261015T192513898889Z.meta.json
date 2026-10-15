@@ -1,0 +1,5 @@
+{
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=34.0007&longitude=-81.0348&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=America%2FNew_York&forecast_days=3",
+  "retrieved_utc": "2026-10-15T19:25:14.602103+00:00",
+  "sha256": "c178f459a354663b1d279c1875f4069078de343d205d5bb84702174334f2e249"
+}
