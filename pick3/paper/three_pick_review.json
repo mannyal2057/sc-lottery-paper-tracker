@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-16T19:10:29.584784+00:00",
+  "updated_utc": "2026-10-16T22:13:11.039660+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -1029,12 +1029,12 @@
       ],
       "original_registered_utc": "2026-10-15T19:24:50.633430+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
-      "result": null,
-      "straight_hit": null,
-      "random_straight_hit": null,
-      "box_hit": null,
-      "best_position_matches": null,
-      "best_digit_overlap": null,
+      "result": "401",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 2,
       "review_on": "2026-10-17"
     },
     {
@@ -1059,6 +1059,29 @@
       "best_position_matches": null,
       "best_digit_overlap": null,
       "review_on": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "draw_type": "Day",
+      "picks": [
+        "551",
+        "051",
+        "851"
+      ],
+      "random_picks": [
+        "755",
+        "461",
+        "895"
+      ],
+      "original_registered_utc": "2026-10-16T22:12:59.447804+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": null,
+      "straight_hit": null,
+      "random_straight_hit": null,
+      "box_hit": null,
+      "best_position_matches": null,
+      "best_digit_overlap": null,
+      "review_on": "2026-10-18"
     }
   ],
   "note": "Three distinct straights have fair hit probability 3/1000 per draw. No ticket purchases. One miss is not evidence that a new model will be better."
