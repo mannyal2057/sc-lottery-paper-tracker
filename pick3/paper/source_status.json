@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-17T13:57:13.956153+00:00",
+  "checked_utc": "2026-10-17T17:33:39.685978+00:00",
   "result_source": "official SC Lottery",
   "official_source_error": null,
   "archive_sources": [
@@ -7,6 +7,21 @@
       "year": 2026,
       "provider": "sc.pick-3.com",
       "snapshot": "sources/517abef5d62622a9ba16_archive_2026.html"
+    },
+    {
+      "year": 2026,
+      "provider": "lottery.net",
+      "snapshots": [
+        "sources/5626c2b3b72b95f2aee1_lotterynet_supplement_2026_Day.html",
+        "sources/6f8d244925f62954d317_lotterynet_supplement_2026_Night.html"
+      ],
+      "role": "supplement missing sc.pick-3.com rows",
+      "accepted_rows": [
+        {
+          "date": "2026-10-17",
+          "draw_type": "Day"
+        }
+      ]
     }
   ],
   "awaiting_archive_confirmation": []
