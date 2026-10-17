@@ -1,21 +1,21 @@
 {
   "version": "CDM-CHALLENGER-V1",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-10-16T22:13:15.469016+00:00",
+  "updated_utc": "2026-10-17T13:57:33.369281+00:00",
   "protocol_sha256": "ba16b456758e32c2fb4dbc6d19e767f0d559b18bc01c999ec219fa38c421e087",
   "totals": {
-    "scored_draws": 16,
+    "scored_draws": 17,
     "straight_hits": 0,
     "random_straight_hits": 0,
     "box_hits": 0,
-    "random_box_hits": 0,
-    "straight_net_usd": -48,
-    "random_straight_net_usd": -48,
-    "box_net_usd": -48,
-    "random_box_net_usd": -48,
-    "mean_model_log_loss": 6.920809366130811,
+    "random_box_hits": 1,
+    "straight_net_usd": -51,
+    "random_straight_net_usd": -51,
+    "box_net_usd": -51,
+    "random_box_net_usd": 29,
+    "mean_model_log_loss": 6.9176434414599335,
     "mean_uniform_log_loss": 6.907755278982137,
-    "mean_baseline_log_loss": 6.9099373587297865
+    "mean_baseline_log_loss": 6.908567610793563
   },
   "checkpoint": {
     "descriptive_draws": 100,
@@ -915,7 +915,30 @@
           "gross_prize_usd": 80
         }
       ],
-      "result": null
+      "result": {
+        "date": "2026-10-16",
+        "draw_type": "Night",
+        "actual": "605",
+        "scored_utc": "2026-10-17T13:57:33.362068+00:00",
+        "forecast_sha256": "3c6986911417e5c045fd3da896c7588b29f19774a6a3e5e3c188ee8ffce10279",
+        "verified_baseline_result_sha256": "04c272011df731a231cddc62744b0f6a9e87594b80f1cef03c449469c5b7fd81",
+        "straight_hit": false,
+        "random_straight_hit": false,
+        "box_hit": false,
+        "random_box_hit": true,
+        "model_log_loss": 6.866988646725884,
+        "uniform_log_loss": 6.907755278982137,
+        "baseline_log_loss": 6.886651643813996,
+        "straight_gross_usd": 0,
+        "straight_net_usd": -3,
+        "random_straight_net_usd": -3,
+        "box_gross_usd": 0,
+        "box_net_usd": -3,
+        "random_box_gross_usd": 80,
+        "random_box_net_usd": 77,
+        "best_position_matches": 2,
+        "best_digit_overlap": 2
+      }
     },
     {
       "date": "2026-10-17",
@@ -943,6 +966,37 @@
           "digits": "029",
           "ways": 6,
           "probability": 0.006304782915381957,
+          "gross_prize_usd": 80
+        }
+      ],
+      "result": null
+    },
+    {
+      "date": "2026-10-17",
+      "draw_type": "Night",
+      "registered_utc": "2026-10-17T13:57:33.354280+00:00",
+      "straight_picks": [
+        "403",
+        "433",
+        "405"
+      ],
+      "box_picks": [
+        {
+          "digits": "349",
+          "ways": 6,
+          "probability": 0.006369274711837298,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "239",
+          "ways": 6,
+          "probability": 0.006322364369048182,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "039",
+          "ways": 6,
+          "probability": 0.006313889368538003,
           "gross_prize_usd": 80
         }
       ],
