@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-20T15:23:59.913053+00:00",
+  "updated_utc": "2026-10-20T19:37:34.813853+00:00",
   "issues": [],
   "rows": [
     {
@@ -1285,12 +1285,12 @@
         "relative_humidity_2m": 21.0,
         "surface_pressure": 1013.9
       },
-      "actual": null,
-      "weather_hit": null,
-      "calendar_hit": null,
-      "baseline_hit": null,
-      "weather_log_loss": null,
-      "calendar_log_loss": null
+      "actual": "949",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.0400418133482745,
+      "calendar_log_loss": 6.875074053091262
     },
     {
       "date": "2026-10-20",
@@ -1314,6 +1314,36 @@
         "temperature_2m": 22.7,
         "relative_humidity_2m": 15.0,
         "surface_pressure": 1011.6
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-10-21",
+      "draw_type": "Day",
+      "weather_picks": [
+        "897",
+        "892",
+        "877"
+      ],
+      "calendar_picks": [
+        "077",
+        "877",
+        "477"
+      ],
+      "baseline_picks": [
+        "951",
+        "051",
+        "851"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 20.1,
+        "relative_humidity_2m": 39.0,
+        "surface_pressure": 1012.6
       },
       "actual": null,
       "weather_hit": null,
