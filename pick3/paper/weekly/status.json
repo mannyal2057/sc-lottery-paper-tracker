@@ -1,11 +1,7 @@
 {
   "status": "REVIEWED",
-  "report_file": "2026-10-08_to_2026-10-14_20261015T152902690192Z.json",
-  "start": "2026-10-08",
-  "end": "2026-10-14",
-  "issues": [
-    "2026-10-14 Night: result pending/unverified",
-    "2026-10-08 Day: no eligible pre-draw prediction; not backfilled",
-    "2026-10-11 Night: no eligible pre-draw prediction; not backfilled"
-  ]
+  "report_file": "2026-10-15_to_2026-10-21_20261022T154104367862Z.json",
+  "start": "2026-10-15",
+  "end": "2026-10-21",
+  "issues": []
 }
