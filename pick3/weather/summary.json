@@ -1,8 +1,6 @@
 {
-  "updated_utc": "2026-10-23T15:30:01.433117+00:00",
-  "issues": [
-    "Weather experiment failed: HTTPError: HTTP Error 503: Service Unavailable"
-  ],
+  "updated_utc": "2026-10-23T19:41:03.283724+00:00",
+  "issues": [],
   "rows": [
     {
       "date": "2026-09-15",
@@ -1466,6 +1464,36 @@
         "temperature_2m": 18.8,
         "relative_humidity_2m": 33.0,
         "surface_pressure": 1013.6
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-10-23",
+      "draw_type": "Night",
+      "weather_picks": [
+        "096",
+        "896",
+        "036"
+      ],
+      "calendar_picks": [
+        "836",
+        "866",
+        "636"
+      ],
+      "baseline_picks": [
+        "138",
+        "130",
+        "198"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 20.5,
+        "relative_humidity_2m": 26.0,
+        "surface_pressure": 1012.9
       },
       "actual": null,
       "weather_hit": null,
