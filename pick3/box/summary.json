@@ -3070,7 +3070,15 @@
       ],
       "cost_usd": 3,
       "fair_hit_probability": 0.018,
-      "result": null
+      "result": {
+        "actual": "973",
+        "forecast_sha256": "a13df0cf35f8525e77b3af52e4f63244b3f847d4db6e85623e84794b169ae2e2",
+        "verified_result_sha256": "8336d090f81d9593ed762b6e25992e3d49d80a9d0e9020b8366b549f20add7b7",
+        "gross_usd": 0,
+        "net_usd": -3,
+        "random_gross_usd": 0,
+        "random_net_usd": -3
+      }
     },
     {
       "version": "BOX-V1",
@@ -3111,6 +3119,61 @@
         },
         {
           "digits": "256",
+          "ways": 6,
+          "gross_prize_usd": 80
+        }
+      ],
+      "cost_usd": 3,
+      "fair_hit_probability": 0.018,
+      "result": {
+        "actual": "169",
+        "forecast_sha256": "c666ac6cbf40d074b6d50126029cb64f538dfaa1237c20fd4f318f1af48f284a",
+        "verified_result_sha256": "5a55da0af951489580df030a0b4ebde630f62737d2545a491b49d8e3f477e057",
+        "gross_usd": 0,
+        "net_usd": -3,
+        "random_gross_usd": 0,
+        "random_net_usd": -3
+      }
+    },
+    {
+      "version": "BOX-V1",
+      "date": "2026-10-28",
+      "draw_type": "Night",
+      "registered_utc": "2026-10-28T16:51:15.949638+00:00",
+      "baseline_sha256": "0c511314a3128cde3acf13b33e2e798d7ab071fbdb9954a475f820684842f31c",
+      "picks": [
+        {
+          "digits": "018",
+          "ways": 6,
+          "model_probability": 0.006264585809986723,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "158",
+          "ways": 6,
+          "model_probability": 0.006208278328386823,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "168",
+          "ways": 6,
+          "model_probability": 0.0061639504801169545,
+          "gross_prize_usd": 80
+        }
+      ],
+      "random_picks": [
+        {
+          "digits": "047",
+          "ways": 6,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "127",
+          "ways": 6,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "049",
           "ways": 6,
           "gross_prize_usd": 80
         }
