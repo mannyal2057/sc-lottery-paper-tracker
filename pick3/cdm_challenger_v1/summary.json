@@ -1,7 +1,7 @@
 {
   "version": "CDM-CHALLENGER-V1",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-10-28T16:51:17.150634+00:00",
+  "updated_utc": "2026-10-28T21:55:01.257324+00:00",
   "protocol_sha256": "ba16b456758e32c2fb4dbc6d19e767f0d559b18bc01c999ec219fa38c421e087",
   "totals": {
     "scored_draws": 37,
@@ -2046,6 +2046,37 @@
           "digits": "239",
           "ways": 6,
           "probability": 0.0063158086905994405,
+          "gross_prize_usd": 80
+        }
+      ],
+      "result": null
+    },
+    {
+      "date": "2026-10-29",
+      "draw_type": "Day",
+      "registered_utc": "2026-10-28T21:55:01.226507+00:00",
+      "straight_picks": [
+        "204",
+        "104",
+        "004"
+      ],
+      "box_picks": [
+        {
+          "digits": "129",
+          "ways": 6,
+          "probability": 0.006324135880868153,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "012",
+          "ways": 6,
+          "probability": 0.006316142277463134,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "029",
+          "ways": 6,
+          "probability": 0.0063071841944668736,
           "gross_prize_usd": 80
         }
       ],

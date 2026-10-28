@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T16:51:14.923417+00:00",
+  "updated_utc": "2026-10-28T21:54:59.285239+00:00",
   "issues": [],
   "rows": [
     {
@@ -1734,6 +1734,36 @@
         "temperature_2m": 23.0,
         "relative_humidity_2m": 52.0,
         "surface_pressure": 1012.2
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-10-29",
+      "draw_type": "Day",
+      "weather_picks": [
+        "477",
+        "077",
+        "497"
+      ],
+      "calendar_picks": [
+        "496",
+        "096",
+        "476"
+      ],
+      "baseline_picks": [
+        "951",
+        "851",
+        "551"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 23.0,
+        "relative_humidity_2m": 62.0,
+        "surface_pressure": 1013.2
       },
       "actual": null,
       "weather_hit": null,

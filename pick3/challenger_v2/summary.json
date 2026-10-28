@@ -1,7 +1,7 @@
 {
   "version": "CHALLENGER-V2",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-10-28T16:51:16.576551+00:00",
+  "updated_utc": "2026-10-28T21:55:00.760179+00:00",
   "protocol_sha256": "3568be14119b5c5ca79f1bdfc4d0465e625e0b796c266e5e1784ffc40477b2e6",
   "totals": {
     "scored_draws": 39,
@@ -2154,6 +2154,37 @@
           "digits": "125",
           "ways": 6,
           "probability": 0.00614269029489295,
+          "gross_prize_usd": 80
+        }
+      ],
+      "result": null
+    },
+    {
+      "date": "2026-10-29",
+      "draw_type": "Day",
+      "registered_utc": "2026-10-28T21:55:00.728640+00:00",
+      "straight_picks": [
+        "846",
+        "841",
+        "844"
+      ],
+      "box_picks": [
+        {
+          "digits": "148",
+          "ways": 6,
+          "probability": 0.006186821601324296,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "478",
+          "ways": 6,
+          "probability": 0.006173465830605854,
+          "gross_prize_usd": 80
+        },
+        {
+          "digits": "458",
+          "ways": 6,
+          "probability": 0.006165551931488872,
           "gross_prize_usd": 80
         }
       ],
