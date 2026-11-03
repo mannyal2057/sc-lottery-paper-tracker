@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-11-03T18:40:09.058587+00:00",
+  "updated_utc": "2026-11-03T23:43:57.960551+00:00",
   "pick3_source": {
     "ok": false,
     "attempts": 3,
-    "message": "  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py\", line 1360, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error timed out>"
+    "message": "  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 1360, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error timed out>"
   },
   "pick3_supporting": {
     "three_pick_review.py": {
@@ -40,6 +40,6 @@
   "pick4_source": {
     "ok": false,
     "attempts": 3,
-    "message": "  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py\", line 1360, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error timed out>"
+    "message": "  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 1360, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error timed out>"
   }
 }
