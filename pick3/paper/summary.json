@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-04T18:53:22.079862+00:00",
+  "updated_utc": "2026-11-05T00:33:37.317705+00:00",
   "totals": {
     "Day": {
       "scored": 34,
@@ -9,20 +9,20 @@
       "random_paper_net_usd": 160
     },
     "Night": {
-      "scored": 41,
+      "scored": 42,
       "model_hits": 0,
       "random_hits": 0,
-      "model_paper_net_usd": -410,
-      "random_paper_net_usd": -410
+      "model_paper_net_usd": -420,
+      "random_paper_net_usd": -420
     }
   },
   "anomaly": {
-    "night_draws": 41,
+    "night_draws": 42,
     "tens_zero": 5,
     "tens_seven": 3
   },
   "endpoint_tests": {},
-  "registered": 77,
+  "registered": 78,
   "pending": 2,
   "complete": false,
   "overdue_unverified": [],
