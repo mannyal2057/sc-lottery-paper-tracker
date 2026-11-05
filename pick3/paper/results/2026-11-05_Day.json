@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "draw_type": "Day",
+  "number": "878",
+  "scored_utc": "2026-11-05T19:00:10.104347+00:00",
+  "official_snapshot": "sources/651221284f2762dd35a1_official.html",
+  "official_snapshot_sha256": "4b5aefce05b9f8187130ebfbd934261ddc3e1e96172a4817274a0c2f93f6c767",
+  "forecast_sha256": "5a9471aa2197cea7a4a8ebb9bc373d057f5e5657c16282badfd5643bf70c980a",
+  "model_hit": false,
+  "random_hit": false,
+  "model_log_loss": 6.86168725303566
+}
