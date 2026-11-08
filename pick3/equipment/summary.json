@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-07T21:06:16.768975+00:00",
+  "updated_utc": "2026-11-08T17:16:04.789489+00:00",
   "status": "AWAITING_SOURCED_IDS",
   "verified_mappings": 0,
   "rows": [
@@ -815,6 +815,16 @@
     },
     {
       "date": "2026-11-07",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-11-08",
       "draw_type": "Night",
       "positions": {
         "H": null,

@@ -1,12 +1,7 @@
 {
-  "checked_utc": "2026-11-07T21:05:56.952490+00:00",
+  "checked_utc": "2026-11-08T17:15:37.693889+00:00",
   "rule": "official SC Lottery; two independent sources must agree",
   "rows": [
-    {
-      "date": "2026-11-04",
-      "draw_type": "Night",
-      "number": "289"
-    },
     {
       "date": "2026-11-05",
       "draw_type": "Day",
@@ -31,6 +26,11 @@
       "date": "2026-11-07",
       "draw_type": "Day",
       "number": "930"
+    },
+    {
+      "date": "2026-11-07",
+      "draw_type": "Night",
+      "number": "842"
     }
   ]
 }
