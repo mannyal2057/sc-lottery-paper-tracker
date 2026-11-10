@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-09T21:46:09.820019+00:00",
+  "updated_utc": "2026-11-10T18:50:57.616747+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -1903,12 +1903,12 @@
       ],
       "original_registered_utc": "2026-11-08T17:15:49.000205+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
-      "result": null,
-      "straight_hit": null,
-      "random_straight_hit": null,
-      "box_hit": null,
-      "best_position_matches": null,
-      "best_digit_overlap": null,
+      "result": "730",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1,
       "review_on": "2026-11-09"
     },
     {
@@ -1926,13 +1926,59 @@
       ],
       "original_registered_utc": "2026-11-07T21:06:02.418612+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": "291",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 2,
+      "review_on": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "draw_type": "Night",
+      "picks": [
+        "698",
+        "150",
+        "198"
+      ],
+      "random_picks": [
+        "173",
+        "637",
+        "858"
+      ],
+      "original_registered_utc": "2026-11-10T18:50:51.306568+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
       "result": null,
       "straight_hit": null,
       "random_straight_hit": null,
       "box_hit": null,
       "best_position_matches": null,
       "best_digit_overlap": null,
-      "review_on": "2026-11-10"
+      "review_on": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "draw_type": "Day",
+      "picks": [
+        "941",
+        "971",
+        "951"
+      ],
+      "random_picks": [
+        "351",
+        "138",
+        "632"
+      ],
+      "original_registered_utc": "2026-11-10T18:50:46.283795+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": null,
+      "straight_hit": null,
+      "random_straight_hit": null,
+      "box_hit": null,
+      "best_position_matches": null,
+      "best_digit_overlap": null,
+      "review_on": "2026-11-12"
     }
   ],
   "note": "Three distinct straights have fair hit probability 3/1000 per draw. No ticket purchases. One miss is not evidence that a new model will be better."
