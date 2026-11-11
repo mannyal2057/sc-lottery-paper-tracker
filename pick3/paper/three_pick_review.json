@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-10T18:50:57.616747+00:00",
+  "updated_utc": "2026-11-11T00:15:45.285816+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -1949,12 +1949,12 @@
       ],
       "original_registered_utc": "2026-11-10T18:50:51.306568+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
-      "result": null,
-      "straight_hit": null,
-      "random_straight_hit": null,
-      "box_hit": null,
-      "best_position_matches": null,
-      "best_digit_overlap": null,
+      "result": "993",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1,
       "review_on": "2026-11-11"
     },
     {
@@ -1971,6 +1971,29 @@
         "632"
       ],
       "original_registered_utc": "2026-11-10T18:50:46.283795+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": null,
+      "straight_hit": null,
+      "random_straight_hit": null,
+      "box_hit": null,
+      "best_position_matches": null,
+      "best_digit_overlap": null,
+      "review_on": "2026-11-12"
+    },
+    {
+      "date": "2026-11-11",
+      "draw_type": "Night",
+      "picks": [
+        "798",
+        "198",
+        "698"
+      ],
+      "random_picks": [
+        "791",
+        "096",
+        "257"
+      ],
+      "original_registered_utc": "2026-11-11T00:15:37.774482+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
       "result": null,
       "straight_hit": null,
