@@ -1,0 +1,46 @@
+{
+  "version": "BOX-V1",
+  "date": "2026-11-12",
+  "draw_type": "Night",
+  "registered_utc": "2026-11-12T19:09:42.483904+00:00",
+  "baseline_sha256": "02480af18e38521ea505ad141612d5c0a22710c1b46d78ce9c5f17ff00f26fae",
+  "picks": [
+    {
+      "digits": "089",
+      "ways": 6,
+      "model_probability": 0.00634477450410314,
+      "gross_prize_usd": 80
+    },
+    {
+      "digits": "068",
+      "ways": 6,
+      "model_probability": 0.006316350133234396,
+      "gross_prize_usd": 80
+    },
+    {
+      "digits": "058",
+      "ways": 6,
+      "model_probability": 0.006306705157668891,
+      "gross_prize_usd": 80
+    }
+  ],
+  "random_picks": [
+    {
+      "digits": "467",
+      "ways": 6,
+      "gross_prize_usd": 80
+    },
+    {
+      "digits": "149",
+      "ways": 6,
+      "gross_prize_usd": 80
+    },
+    {
+      "digits": "014",
+      "ways": 6,
+      "gross_prize_usd": 80
+    }
+  ],
+  "cost_usd": 3,
+  "fair_hit_probability": 0.018
+}

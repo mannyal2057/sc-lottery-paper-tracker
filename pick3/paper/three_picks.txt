@@ -85,5 +85,7 @@ THREE-PICK SLATES — Eastern time
 2026-11-08 Night: 698, 600, 608 | Actual: 730 | Review: 2026-11-09
 2026-11-09 Day: 951, 971, 941 | Actual: 291 | Review: 2026-11-10
 2026-11-10 Night: 698, 150, 198 | Actual: 993 | Review: 2026-11-11
-2026-11-11 Day: 941, 971, 951 | Actual: pending | Review: 2026-11-12
-2026-11-11 Night: 798, 198, 698 | Actual: pending | Review: 2026-11-12
+2026-11-11 Day: 941, 971, 951 | Actual: 168 | Review: 2026-11-12
+2026-11-11 Night: 798, 198, 698 | Actual: 188 | Review: 2026-11-12
+2026-11-12 Night: 698, 798, 198 | Actual: pending | Review: 2026-11-13
+2026-11-13 Day: 941, 841, 971 | Actual: pending | Review: 2026-11-14
