@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-16T21:16:09.700413+00:00",
+  "updated_utc": "2026-11-17T20:02:21.501427+00:00",
   "status": "AWAITING_SOURCED_IDS",
   "verified_mappings": 0,
   "rows": [
@@ -955,6 +955,26 @@
     },
     {
       "date": "2026-11-17",
+      "draw_type": "Day",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-11-17",
+      "draw_type": "Night",
+      "positions": {
+        "H": null,
+        "T": null,
+        "U": null
+      },
+      "eligible_for_future_equipment_model": false
+    },
+    {
+      "date": "2026-11-18",
       "draw_type": "Day",
       "positions": {
         "H": null,
