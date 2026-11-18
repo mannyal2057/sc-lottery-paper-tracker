@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-17T20:01:46.527716+00:00",
+  "updated_utc": "2026-11-18T02:37:13.953374+00:00",
   "pick3_source": {
     "ok": true,
     "attempts": 1,
@@ -12,9 +12,9 @@
       "message": "updated"
     },
     "weather_experiment.py": {
-      "ok": true,
+      "ok": false,
       "attempts": 1,
-      "message": "updated"
+      "message": "  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py\", line 1360, in do_open |     raise URLError(err) | urllib.error.URLError: <urlopen error _ssl.c:994: The handshake operation timed out>"
     },
     "equipment_context.py": {
       "ok": true,

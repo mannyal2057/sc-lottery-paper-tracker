@@ -91,7 +91,7 @@ Outdoor Columbia temperature, humidity and pressure; not studio measurements. Ex
 | 2026-11-16 | Day | 077, 097, 073 | 077, 073, 072 | 841, 871, 241 | 156 |
 | 2026-11-16 | Night | 699, 609, 199 | 619, 419, 613 | 698, 798, 608 | 572 |
 | 2026-11-17 | Day | 097, 077, 897 | 077, 073, 047 | 871, 841, 851 | 145 |
-| 2026-11-17 | Night | 699, 199, 609 | 619, 419, 609 | 798, 298, 461 | Pending |
+| 2026-11-17 | Night | 699, 199, 609 | 619, 419, 609 | 798, 298, 461 | 668 |
 | 2026-11-18 | Day | 897, 097, 877 | 077, 073, 007 | 841, 871, 849 | Pending |
 
-Issues: None
+Issues: Weather experiment failed: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>

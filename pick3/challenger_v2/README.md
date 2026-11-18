@@ -73,7 +73,8 @@ This separate challenger is 85% uniform and 15% historical signal. It does not r
 | 2026-11-16 | Day | 978, 970, 988 | 789 (6-way), 079 (6-way), 478 (6-way) | 156 | False | False |
 | 2026-11-16 | Night | 218, 302, 108 | 128 (6-way), 018 (6-way), 023 (6-way) | 572 | False | False |
 | 2026-11-17 | Day | 844, 806, 884 | 148 (6-way), 458 (6-way), 478 (6-way) | 145 | False | False |
-| 2026-11-17 | Night | 138, 139, 136 | 128 (6-way), 123 (6-way), 238 (6-way) | Pending | Pending | Pending |
+| 2026-11-17 | Night | 138, 139, 136 | 128 (6-way), 123 (6-way), 238 (6-way) | 668 | False | False |
 | 2026-11-18 | Day | 841, 846, 844 | 148 (6-way), 478 (6-way), 189 (6-way) | Pending | Pending | Pending |
+| 2026-11-18 | Night | 608, 108, 308 | 128 (6-way), 018 (6-way), 089 (6-way) | Pending | Pending | Pending |
 
 First descriptive checkpoint: 100 scored Challenger Box drawings. Final comparison: 200 scored draws per stream. Interim balances do not establish an advantage.
