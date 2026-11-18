@@ -1,8 +1,6 @@
 {
-  "updated_utc": "2026-11-18T02:39:03.513957+00:00",
-  "issues": [
-    "Weather experiment failed: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>"
-  ],
+  "updated_utc": "2026-11-18T19:45:23.166131+00:00",
+  "issues": [],
   "rows": [
     {
       "date": "2026-09-15",
@@ -2666,6 +2664,36 @@
         "temperature_2m": 16.4,
         "relative_humidity_2m": 34.0,
         "surface_pressure": 1020.7
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-11-18",
+      "draw_type": "Night",
+      "weather_picks": [
+        "699",
+        "609",
+        "199"
+      ],
+      "calendar_picks": [
+        "619",
+        "609",
+        "419"
+      ],
+      "baseline_picks": [
+        "698",
+        "608",
+        "798"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 14.8,
+        "relative_humidity_2m": 41.0,
+        "surface_pressure": 1019.2
       },
       "actual": null,
       "weather_hit": null,
