@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-20T01:35:15.022559+00:00",
+  "updated_utc": "2026-11-20T19:16:44.983778+00:00",
   "issues": [],
   "rows": [
     {
@@ -2755,12 +2755,12 @@
         "relative_humidity_2m": 56.0,
         "surface_pressure": 1016.3
       },
-      "actual": null,
-      "weather_hit": null,
-      "calendar_hit": null,
-      "baseline_hit": null,
-      "weather_log_loss": null,
-      "calendar_log_loss": null
+      "actual": "802",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.642018071520452,
+      "calendar_log_loss": 6.709991359713595
     },
     {
       "date": "2026-11-20",
@@ -2784,6 +2784,66 @@
         "temperature_2m": 20.5,
         "relative_humidity_2m": 50.0,
         "surface_pressure": 1014.2
+      },
+      "actual": "916",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 6.969934958606325,
+      "calendar_log_loss": 6.885402816026897
+    },
+    {
+      "date": "2026-11-20",
+      "draw_type": "Night",
+      "weather_picks": [
+        "006",
+        "036",
+        "009"
+      ],
+      "calendar_picks": [
+        "062",
+        "066",
+        "069"
+      ],
+      "baseline_picks": [
+        "608",
+        "208",
+        "708"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 19.3,
+        "relative_humidity_2m": 40.0,
+        "surface_pressure": 1012.1
+      },
+      "actual": null,
+      "weather_hit": null,
+      "calendar_hit": null,
+      "baseline_hit": null,
+      "weather_log_loss": null,
+      "calendar_log_loss": null
+    },
+    {
+      "date": "2026-11-21",
+      "draw_type": "Day",
+      "weather_picks": [
+        "104",
+        "404",
+        "184"
+      ],
+      "calendar_picks": [
+        "884",
+        "484",
+        "184"
+      ],
+      "baseline_picks": [
+        "841",
+        "941",
+        "871"
+      ],
+      "outdoor_forecast": {
+        "temperature_2m": 15.9,
+        "relative_humidity_2m": 67.0,
+        "surface_pressure": 1008.6
       },
       "actual": null,
       "weather_hit": null,
