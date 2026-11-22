@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-22T18:47:57.596961+00:00",
+  "updated_utc": "2026-11-22T23:52:50.719634+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -2409,12 +2409,12 @@
       ],
       "original_registered_utc": "2026-11-21T18:14:24.193195+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
-      "result": null,
-      "straight_hit": null,
-      "random_straight_hit": null,
-      "box_hit": null,
-      "best_position_matches": null,
-      "best_digit_overlap": null,
+      "result": "497",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 1,
+      "best_digit_overlap": 1,
       "review_on": "2026-11-22"
     },
     {

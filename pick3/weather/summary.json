@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-22T18:48:00.915693+00:00",
+  "updated_utc": "2026-11-22T23:52:52.654573+00:00",
   "issues": [],
   "rows": [
     {
@@ -2875,12 +2875,12 @@
         "relative_humidity_2m": 81.0,
         "surface_pressure": 1006.3
       },
-      "actual": null,
-      "weather_hit": null,
-      "calendar_hit": null,
-      "baseline_hit": null,
-      "weather_log_loss": null,
-      "calendar_log_loss": null
+      "actual": "497",
+      "weather_hit": false,
+      "calendar_hit": false,
+      "baseline_hit": false,
+      "weather_log_loss": 7.287906596357589,
+      "calendar_log_loss": 7.199641715310868
     },
     {
       "date": "2026-11-23",

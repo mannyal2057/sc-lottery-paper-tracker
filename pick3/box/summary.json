@@ -5270,7 +5270,15 @@
       ],
       "cost_usd": 3,
       "fair_hit_probability": 0.018,
-      "result": null
+      "result": {
+        "actual": "497",
+        "forecast_sha256": "82d2fdd81c6a52ad7666881431bb53a75a3bcb49efad1768b50a251bb4ab670a",
+        "verified_result_sha256": "6fa18502c8cf14fde4b6e571233849facc93b6bce3216d4b0856a7c2051517c5",
+        "gross_usd": 0,
+        "net_usd": -3,
+        "random_gross_usd": 0,
+        "random_net_usd": -3
+      }
     },
     {
       "version": "BOX-V1",

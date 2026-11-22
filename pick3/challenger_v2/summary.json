@@ -1,21 +1,21 @@
 {
   "version": "CHALLENGER-V2",
   "status": "LOCKED_PROSPECTIVE",
-  "updated_utc": "2026-11-22T18:48:02.706949+00:00",
+  "updated_utc": "2026-11-22T23:52:54.238424+00:00",
   "protocol_sha256": "3568be14119b5c5ca79f1bdfc4d0465e625e0b796c266e5e1784ffc40477b2e6",
   "totals": {
-    "scored_draws": 77,
+    "scored_draws": 78,
     "straight_hits": 0,
     "random_straight_hits": 0,
     "box_hits": 0,
     "random_box_hits": 1,
-    "straight_net_usd": -231,
-    "random_straight_net_usd": -231,
-    "box_net_usd": -231,
-    "random_box_net_usd": -151,
-    "mean_model_log_loss": 6.903956824898262,
+    "straight_net_usd": -234,
+    "random_straight_net_usd": -234,
+    "box_net_usd": -234,
+    "random_box_net_usd": -154,
+    "mean_model_log_loss": 6.904584413212303,
     "mean_uniform_log_loss": 6.907755278982135,
-    "mean_baseline_log_loss": 6.912214662597862
+    "mean_baseline_log_loss": 6.911866752323542
   },
   "checkpoint": {
     "first_box_checkpoint_draws": 100,
@@ -4209,7 +4209,30 @@
           "gross_prize_usd": 80
         }
       ],
-      "result": null
+      "result": {
+        "date": "2026-11-21",
+        "draw_type": "Night",
+        "actual": "497",
+        "scored_utc": "2026-11-22T23:52:54.193598+00:00",
+        "forecast_sha256": "32e44f64e7a30bd4060f8de7d62bc66d71f4a0b5f7d9fb2f03ce826b7425b748",
+        "verified_baseline_result_sha256": "6fa18502c8cf14fde4b6e571233849facc93b6bce3216d4b0856a7c2051517c5",
+        "straight_hit": false,
+        "random_straight_hit": false,
+        "box_hit": false,
+        "random_box_hit": false,
+        "model_log_loss": 6.952908713393531,
+        "uniform_log_loss": 6.907755278982137,
+        "baseline_log_loss": 6.885077661200837,
+        "straight_gross_usd": 0,
+        "straight_net_usd": -3,
+        "random_straight_net_usd": -3,
+        "box_gross_usd": 0,
+        "box_net_usd": -3,
+        "random_box_gross_usd": 0,
+        "random_box_net_usd": -3,
+        "best_position_matches": 0,
+        "best_digit_overlap": 0
+      }
     },
     {
       "date": "2026-11-23",

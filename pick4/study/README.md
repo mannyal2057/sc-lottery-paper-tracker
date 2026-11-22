@@ -92,7 +92,7 @@ Three $1 paper straights and three $1 paper Boxes per drawing. FIREBALL excluded
 | 2026-11-20 | Day | 7690, 7632, 7692 | 1367 (24-way), 1479 (24-way), 1467 (24-way) | 6452 | False | False |
 | 2026-11-20 | Night | 3626, 7458, 7493 | 0458 (24-way), 0489 (24-way), 4589 (24-way) | 9695 | False | False |
 | 2026-11-21 | Day | 5442, 7632, 5642 | 3467 (24-way), 2467 (24-way), 1367 (24-way) | 8193 | False | False |
-| 2026-11-21 | Night | 3626, 7458, 3458 | 0458 (24-way), 0489 (24-way), 0348 (24-way) | Pending | Pending | Pending |
+| 2026-11-21 | Night | 3626, 7458, 3458 | 0458 (24-way), 0489 (24-way), 0348 (24-way) | 8259 | False | False |
 | 2026-11-23 | Day | 5442, 7690, 5493 | 3467 (24-way), 1367 (24-way), 4678 (24-way) | Pending | Pending | Pending |
 
 The model is 85% uniform and 15% fixed historical signal. Wider Box coverage is not a predictive advantage. Compare every result with the composition-matched random control.
