@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-22T23:52:39.777099+00:00",
+  "updated_utc": "2026-11-24T21:32:43.571409+00:00",
   "totals": {
     "Day": {
-      "scored": 47,
+      "scored": 48,
       "model_hits": 0,
       "random_hits": 1,
-      "model_paper_net_usd": -470,
-      "random_paper_net_usd": 30
+      "model_paper_net_usd": -480,
+      "random_paper_net_usd": 20
     },
     "Night": {
       "scored": 58,
@@ -22,8 +22,8 @@
     "tens_seven": 4
   },
   "endpoint_tests": {},
-  "registered": 106,
-  "pending": 1,
+  "registered": 108,
+  "pending": 2,
   "complete": false,
   "overdue_unverified": [],
   "awaiting_archive_confirmation": []

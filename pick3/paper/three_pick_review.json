@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T23:03:21.270466+00:00",
+  "updated_utc": "2026-11-24T21:32:55.651783+00:00",
   "version": "TOP3-V1",
   "rows": [
     {
@@ -2432,13 +2432,59 @@
       ],
       "original_registered_utc": "2026-11-21T18:14:14.178104+00:00",
       "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": "298",
+      "straight_hit": false,
+      "random_straight_hit": false,
+      "box_hit": false,
+      "best_position_matches": 0,
+      "best_digit_overlap": 1,
+      "review_on": "2026-11-24"
+    },
+    {
+      "date": "2026-11-24",
+      "draw_type": "Night",
+      "picks": [
+        "618",
+        "608",
+        "218"
+      ],
+      "random_picks": [
+        "716",
+        "759",
+        "496"
+      ],
+      "original_registered_utc": "2026-11-24T21:32:43.500545+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
       "result": null,
       "straight_hit": null,
       "random_straight_hit": null,
       "box_hit": null,
       "best_position_matches": null,
       "best_digit_overlap": null,
-      "review_on": "2026-11-24"
+      "review_on": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "draw_type": "Day",
+      "picks": [
+        "841",
+        "871",
+        "241"
+      ],
+      "random_picks": [
+        "047",
+        "825",
+        "007"
+      ],
+      "original_registered_utc": "2026-11-24T21:32:33.511926+00:00",
+      "selection_rule_registered_utc": "2026-09-10T12:40:31.494603+00:00",
+      "result": null,
+      "straight_hit": null,
+      "random_straight_hit": null,
+      "box_hit": null,
+      "best_position_matches": null,
+      "best_digit_overlap": null,
+      "review_on": "2026-11-26"
     }
   ],
   "note": "Three distinct straights have fair hit probability 3/1000 per draw. No ticket purchases. One miss is not evidence that a new model will be better."
