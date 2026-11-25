@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-24",
+  "draw_type": "Night",
+  "number": "662",
+  "scored_utc": "2026-11-25T20:40:36.619218+00:00",
+  "official_snapshot": "sources/5efa353b9c6abbf473e4_official.html",
+  "official_snapshot_sha256": "f25595a04c54c33ed840a8ec959c4d0687fce6227beef2a19cb94389a0dabec6",
+  "forecast_sha256": "5b5497284216cd4c2ac655db9722ca52fca3276c28720c406e3a8c5dbb59e310",
+  "model_hit": false,
+  "random_hit": false,
+  "model_log_loss": 6.8827367705705065
+}

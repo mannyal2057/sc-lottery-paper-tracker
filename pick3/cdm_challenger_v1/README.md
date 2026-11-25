@@ -81,7 +81,9 @@ A research-inspired hierarchical Dirichlet-multinomial model running beside the 
 | 2026-11-21 | Day | 204, 294, 104 | 129 (6-way), 012 (6-way), 029 (6-way) | 461 | False | False |
 | 2026-11-21 | Night | 403, 405, 433 | 349 (6-way), 039 (6-way), 239 (6-way) | 497 | False | False |
 | 2026-11-23 | Day | 204, 294, 104 | 129 (6-way), 012 (6-way), 029 (6-way) | 298 | False | False |
-| 2026-11-24 | Night | 403, 405, 433 | 349 (6-way), 039 (6-way), 239 (6-way) | Pending | Pending | Pending |
-| 2026-11-25 | Day | 204, 294, 104 | 129 (6-way), 012 (6-way), 029 (6-way) | Pending | Pending | Pending |
+| 2026-11-24 | Night | 403, 405, 433 | 349 (6-way), 039 (6-way), 239 (6-way) | 662 | False | False |
+| 2026-11-25 | Day | 204, 294, 104 | 129 (6-way), 012 (6-way), 029 (6-way) | 687 | False | False |
+| 2026-11-25 | Night | 403, 405, 433 | 349 (6-way), 039 (6-way), 239 (6-way) | Pending | Pending | Pending |
+| 2026-11-26 | Day | 204, 294, 104 | 129 (6-way), 012 (6-way), 029 (6-way) | Pending | Pending | Pending |
 
 Descriptive checkpoint: 100 scored drawings. Final comparison: 200 scored draws per stream. Interim outcomes do not establish an advantage.
