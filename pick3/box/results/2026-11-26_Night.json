@@ -1,0 +1,9 @@
+{
+  "actual": "138",
+  "forecast_sha256": "31fae0c127d51fb1dc376828d9f22e29100fbf92c549a7eb8895afad5601ff39",
+  "verified_result_sha256": "eb701fa9581a74a6444b4914011efb83cf8e67205eea1b7195873f351d209ea0",
+  "gross_usd": 0,
+  "net_usd": -3,
+  "random_gross_usd": 0,
+  "random_net_usd": -3
+}
